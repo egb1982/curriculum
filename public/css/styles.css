@@ -1,0 +1,23 @@
+body {
+
+}
+.jumbotron {
+    color: white;
+    background:rgb(0, 0, 0);
+    background-image: url('../img/code-bg.jpg');
+    background-image: linear-gradient(rgb(0, 0, 0, 0.8) 0%,rgb(0, 0, 0,1) 50%, rgba(0, 0, 0, 0.1) 100%), url('../img/code-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#iProfileImage {
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+}
+
+.progress-bar {
+    color: white;
+}
