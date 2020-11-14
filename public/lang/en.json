@@ -1,0 +1,106 @@
+{
+    "name" : "Emilio Gómez Berlanga",
+    "profession" : "Full Stack Web Developer",
+    "about_me" : 
+        { 
+            "title" : "About me", 
+            "text" :"I am a software developer focused in web development since more than 8 years. I am looking for exciting new challenges were I can develop my carrier as full stack developer." 
+        },
+    "tech_skils" : 
+        { 
+            "title" : "Technical Skills",
+            "subtitle": "Most significant technical competences",
+            "skills": 
+                [
+                    { "name": "Javascript", "value": 99 },
+                    { "name": "HTML", "value": 99 },
+                    { "name": "CSS/SCSS", "value": 99 },
+                    { "name": "Angular", "value": 33 },
+                    { "name": "Node.js", "value": 45 },
+                    { "name": "MongoDB", "value": 33 },
+                    { "name": "Bootstrap", "value": 90 },
+                    { "name": "jQuery", "value": 90 },
+                    { "name": "REST", "value": 23 }
+                ]
+
+        },
+    "other_skills" : 
+        {
+            "title" : "Non technical Skills",
+            "subtitle" :"Most valuable personal competences",
+            "skills":
+                [
+                    {"name": "Organization", "value" : 75},
+                    {"name": "Communication", "value" : 75},
+                    {"name": "Flexibility", "value" : 75},
+                    {"name": "Creativity", "value" : 75},
+                    {"name": "Willingness to learn", "value" : 75},
+                    {"name": "Initiative", "value" : 75},
+                    {"name": "Time management", "value" : 75},
+                    {"name": "Self management", "value" : 75},
+                    {"name": "Desition-making", "value" : 75},
+                    {"name": "Teamwork", "value":75},
+                    {"name": "Stress management", "value": 75},
+                    {"name": "Emotional awareness", "value": 75}
+                ]
+        },
+    "work_experience": 
+        {   
+            "title": "Work experience",
+            "jobs":
+                [
+                    {
+                        "job_position" : "Web developer and designer",
+                        "period" : "03/10/2014 - current",
+                        "location": "Stuttgart, germany",
+                        "company": "LIB-IT DMS GmbH",
+                        "website": "www.lib-it.de",
+                        "tasks": 
+                            [
+                                {"description" : "Head of web UI development"},
+                                {"description" : "Web design"},
+                                {"description" : "Backend development with Node.js"},
+                                {"description" : "Backend and Frontend development with Intersystems Cache/Iris"},
+                                {"description" : "Frontend development with HTML, CSS and SCSS, Javascript"},
+                                {"description" : "Responsive design with Bootstrap"},
+                                {"description" : "Development with C#.NET"}
+                            ]
+                    }
+                ]
+    
+        },
+    "education" : 
+        {
+            "title" : "Education",
+            "studies" :
+                [
+                    {
+                        "title" : "Full Stack Web Developer Masters Program",
+                        "period" : "07/02/2019 - 11/02/2020",
+                        "location": "Online, English",
+                        "center" : "Edureka e-learning platform",
+                        "duration": "200 hours",
+                        "content" : 
+                            [
+                                {"subject" : "Web development certification"},
+                                {"subject" : "jQuery development certification"},
+                                {"subject" : "MongoDB certification training"},
+                                {"subject" : "Angular certification training"},
+                                {"subject" : "Node.js certification training"}
+                            ]
+                    }
+                ]
+        },
+    "Languages" : 
+        { 
+            "title" : "Languages",
+            "list": 
+                [ 
+                    { "name" : "Catalan", "skill" : "Mother tongue", "value": 100 },
+                    { "name" : "Spanish", "skill" : "Mother tongue", "value": 100 },
+                    { "name" : "English", "skill" : "Professional Working Proficiency", "value": 70 },
+                    { "name" : "German", "skill" : "B2 Certification", "value": 60 }
+                ]
+        }
+
+}
