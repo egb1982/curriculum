@@ -1,0 +1,226 @@
+{
+    "name" : "Emilio Gómez Berlanga",
+    "profession" : "Full Stack Web Developer",
+    "contact": 
+        {
+            "address":"71634 Ludwigsburg, Germany",
+            "email": "egb1982@gmail.com",
+            "phone": "+49 176 4729 6097"
+        },
+    "about_me" : 
+        { 
+            "title" : "About me", 
+            "text" :"I am a software developer focused in web development since more than 8 years. I am looking for exciting new challenges were I can develop my carrier as full stack developer." 
+        },
+    "tech_skills" : 
+        { 
+            "title" : "Technical Skills",
+            "subtitle": "Most significant technical competences",
+            "grades": {"basic" : "basic", "proficient" : "proficient", "expert" :"expert"},
+            "skills": 
+                [
+                    { "name": "Javascript", "value": 99 },
+                    { "name": "HTML", "value": 99 },
+                    { "name": "CSS/SCSS", "value": 99 },
+                    { "name": "Angular", "value": 33 },
+                    { "name": "Node.js", "value": 45 },
+                    { "name": "MongoDB", "value": 33 },
+                    { "name": "Bootstrap", "value": 90 },
+                    { "name": "jQuery", "value": 90 },
+                    { "name": "REST", "value": 23 }
+                ]
+
+        },
+    "other_skills" : 
+        {
+            "title" : "Non technical Skills",
+            "subtitle" :"Most valuable personal competences",
+            "skills":
+                [
+                    {"name": "Organization", "value" : 75},
+                    {"name": "Communication", "value" : 75},
+                    {"name": "Flexibility", "value" : 75},
+                    {"name": "Creativity", "value" : 75},
+                    {"name": "Willingness to learn", "value" : 75},
+                    {"name": "Initiative", "value" : 75},
+                    {"name": "Time management", "value" : 75},
+                    {"name": "Self management", "value" : 75},
+                    {"name": "Desition-making", "value" : 75},
+                    {"name": "Teamwork", "value":75},
+                    {"name": "Stress management", "value": 75},
+                    {"name": "Emotional awareness", "value": 75}
+                ]
+        },
+    "work_experience": 
+        {   
+            "title": "Work experience",
+            "jobs":
+                [
+                    {
+                        "position" : "Web developer and designer",
+                        "period" : "03/2014 - current",
+                        "location": "Stuttgart, Germany",
+                        "company": "LIB-IT DMS GmbH",
+                        "website": "www.lib-it.de",
+                        "tasks": 
+                            [
+                                {"description" : "Head of web UI development"},
+                                {"description" : "Web design"},
+                                {"description" : "Backend development with Node.js"},
+                                {"description" : "Backend and Frontend development with Intersystems Cache/Iris"},
+                                {"description" : "Frontend development with HTML, CSS and SCSS, Javascript"},
+                                {"description" : "Responsive design with Bootstrap"},
+                                {"description" : "Development with C#.NET"}
+                            ]
+                    },
+                    {
+                        "position" : "Web Developer ",
+                        "period" : "06/2011 – 02/2014",
+                        "location": "Barcelona, Spain",
+                        "company": "ONMEDIC networks ",
+                        "website": "www.onmedic.com",
+                        "tasks": 
+                            [
+                                {"description" : "Web developement with in DotNetNuke (dnn)"},
+                                {"description" : "SQL Server Databases management and programing"},
+                                {"description" : "Web development with Javascript, jQuery, HTML, CSS"},
+                                {"description" : "Performing modules for dnn with VB.NET"}
+                            ]
+                    },
+                    {
+                        "position" : "Web Developer",
+                        "period" : "11/2010 – 04/2011",
+                        "location": "Sant Feliu de Llobregat, Spain",
+                        "company": "Sant Feliu de Llobregat City Council",
+                        "website": "https://www.santfeliu.cat",
+                        "tasks": 
+                            [
+                                {"description" : "Modification of web contents including requests management and and enhancements execution"},
+                                {"description" : "PHP scripts programming"}
+                            ]
+                    },
+                    {
+                        "position" : "Software developer and IT Expert",
+                        "period" : "05/2007 – 04/2009",
+                        "location": "Barcelona, Spain",
+                        "company": "Euclides BINDAR",
+                        "website": "http://www.grupoeuclides.com",
+                        "tasks": 
+                            [
+                                {"description" : "Programming in C/AL (Microsoft Dynamics NAV)"},
+                                {"description" : "Development with ASPX, C#.NET"},
+                                {"description" : "System administrator"},
+                                {"description" : "Technical support"}
+                            ]
+                    },
+                    {
+                        "position" : "Technical expert",
+                        "period" : "02/2005 – 04/2007 ",
+                        "location": "Barcelona, Spain",
+                        "company": "Grupo ALTEN",
+                        "website": "http://www.alten.com",
+                        "tasks": 
+                            [
+                                {"description" : "OperatingTasks and Support to the treasury department in CaixaBank"},
+                                {"description" : "Technical support for standard applications (office, windows)"},
+                                {"description" : "Technical support for specific applications of treasury (xtra Reuters, Bloomberg)"},
+                                {"description" : "Technical support for hardware and network printers"},
+                                {"description" : "Copy and maintaining security tapes"}
+                            ]
+                    },
+                    {
+                        "position" : "Technical support agent",
+                        "period" : "12/2003 – 02/2005",
+                        "location": "Barcelona, Spain",
+                        "company": "Everis (before DMR-Qualitas)",
+                        "website": "https://www.everis.com",
+                        "tasks": 
+                            [
+                                {"description" : "Technical support"},
+                                {"description" : "Help Desk"}
+                            ]
+                    }                                                  
+                ]
+    
+        },
+    "education" : 
+        {
+            "title" : "Education",
+            "studies" :
+                [
+                    {
+                        "title" : "Full Stack Web Developer Masters Program",
+                        "period" : "02/2019 - 02/2020",
+                        "location": "Online, English",
+                        "center" : "Edureka e-learning platform",
+                        "duration": "Duration: 200 hours",
+                        "content" : 
+                            [
+                                {"subject" : "Web development certification"},
+                                {"subject" : "jQuery development certification"},
+                                {"subject" : "MongoDB certification training"},
+                                {"subject" : "Angular certification training"},
+                                {"subject" : "Node.js certification training"},
+                                {"subject" : "Capstone project: Development of Student Portal web application which provides web based student activity management system for all college/school students. Implemented as MEAN/Full Stack application followed by MVC architecture and a RESTful web service."}
+                            ]
+                    },
+                    {
+                        "title" : "Certificate of higher education in informatic applications development",
+                        "period" : "09/2001 – 06/2003",
+                        "location": "Barcelona",
+                        "center" : "I.E.S Rambla Prim",
+                        "duration": "Duration: 2000 hours",
+                        "content" : 
+                            [
+                                {"subject" : "Operating systems"},
+                                {"subject" : "Local area networks"},
+                                {"subject" : "Analysis and design of databases"},
+                                {"subject" : "Structured and modular programming (C)"},
+                                {"subject" : "Advanced programming (JAVA)"},
+                                {"subject" : "Analysis and design of applications"},
+                                {"subject" : "4th generation environments and with CASE tools"},
+                                {"subject" : "Design and presentation services in graphical environments(Visual Basic,Delphi)"}
+                            ]
+                    },
+                    {
+                        "title" : "Web and multimedia design training",
+                        "period" : "09/2009 – 02/2010",
+                        "location": "Barcelona",
+                        "center" : "Innovational and professional training center La Violeta",
+                        "duration": "Duration: 384 hours",
+                        "content" : 
+                            [
+                                {"subject" : "3D Design (Lightwave)"},
+                                {"subject" : "Web Design (Photoshop, Adobe Flash, Dreamweaver)"}
+                            ]
+                    },
+                    {
+                        "title" : "Higher Education in IT systems management (not certified)",
+                        "period" : "02/2010 – 06/2011",
+                        "location": "Online",
+                        "center" : "Institut Obert de Catalunya (IOC)",
+                        "duration": "Duration: 1500 hours",
+                        "content" : 
+                            [
+                                {"subject" : "Single-user and multi user computer systems"},
+                                {"subject" : "Management of local area networks"},
+                                {"subject" : "Implementation of IT and management applications"},
+                                {"subject" : "Administration of management systems databases"},
+                                {"subject" : "Development of functions in the computer system"}
+                            ]
+                    }                                                          
+                ]
+        },
+    "languages" : 
+        { 
+            "title" : "Languages",
+            "list": 
+                [ 
+                    { "name" : "Catalan", "skill" : "Mother tongue", "value": 100 },
+                    { "name" : "Spanish", "skill" : "Mother tongue", "value": 100 },
+                    { "name" : "English", "skill" : "Professional Working Proficiency", "value": 75  },
+                    { "name" : "German", "skill" : "B2 Certification", "value": 66 }
+                ]
+        }
+
+}
