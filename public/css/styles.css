@@ -1,14 +1,11 @@
-body {
 
-}
 .jumbotron {
     color: white;
     background:rgb(0, 0, 0);
-    background-image: url('../img/code-bg.jpg');
-    background-image: linear-gradient(rgb(0, 0, 0, 0.8) 0%,rgb(0, 0, 0,1) 50%, rgba(0, 0, 0, 0.1) 100%), url('../img/code-bg.jpg');
+    background-image: url('../img/code-bg-m.jpg');
+    background-image: linear-gradient(rgb(0, 0, 0, 0.8) 0%,rgb(0, 0, 0,1) 50%, rgba(0, 0, 0, 0.1) 100%), url('../img/code-bg-m.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
 #iProfileImage {
@@ -42,4 +39,10 @@ p {
 }
 #iMoveUpBtn:hover {
     opacity: 1;
+}
+
+@media print {
+    #iMoveUpBtn, #iNavigation, #iDownloads {
+        display: none;
+    }
 }

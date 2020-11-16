@@ -80,7 +80,7 @@
                         "tasks": 
                             [
                                 {"description" : "Web developement with in DotNetNuke (dnn)"},
-                                {"description" : "SQL Server Databases management and programing"},
+                                {"description" : "SQL Server Databases management and programming"},
                                 {"description" : "Web development with Javascript, jQuery, HTML, CSS"},
                                 {"description" : "Performing modules for dnn with VB.NET"}
                             ]
@@ -93,7 +93,7 @@
                         "website": "https://www.santfeliu.cat",
                         "tasks": 
                             [
-                                {"description" : "Modification of web contents including requests management and and enhancements execution"},
+                                {"description" : "Modification of web contents including requests management and enhancements execution"},
                                 {"description" : "PHP scripts programming"}
                             ]
                     },
@@ -200,7 +200,7 @@
                         "duration": "Duration: 1440 hours",
                         "content" : 
                             [
-                                {"subject" : "Single-user and multi user computer systems"},
+                                {"subject" : "Single and multi user computer systems"},
                                 {"subject" : "Management of local area networks"},
                                 {"subject" : "Implementation of IT and management applications"},
                                 {"subject" : "Administration of management systems databases"},
@@ -219,6 +219,10 @@
                     { "name" : "English", "skill" : "Professional Working Proficiency", "value": 75  },
                     { "name" : "German", "skill" : "B2 Certification", "value": 66 }
                 ]
+        },
+    "downloads" : 
+        {
+            "title" : "Downloads"
         }
 
 }
