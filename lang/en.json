@@ -10,7 +10,7 @@
     "about_me" : 
         { 
             "title" : "About me", 
-            "text" :"I am a software developer focused in web development since more than 8 years. I am looking for exciting new challenges were I can develop my carrier as full stack developer." 
+            "text" :"I am a software developer focused on web development for more than 8 years. I took the challenge 6 years ago to go abroad in the Stuttgart area where I am based currently. I am open to new challenges which allow me to develop my career as Full Stack Web Developer. \nI define myself as a respectful and quiet person in the foreground but passionate with what I do, inquisitive and open minded about new experiences and knowledgment." 
         },
     "tech_skills" : 
         { 
@@ -19,36 +19,34 @@
             "grades": {"basic" : "basic", "proficient" : "proficient", "expert" :"expert"},
             "skills": 
                 [
-                    { "name": "Javascript", "value": 99 },
-                    { "name": "HTML", "value": 99 },
-                    { "name": "CSS/SCSS", "value": 99 },
+                    { "name": "Javascript", "value": 95 },
+                    { "name": "HTML", "value": 95 },
+                    { "name": "CSS/SCSS", "value": 90 },
+                    { "name": "Bootstrap", "value": 95 },
+                    { "name": "jQuery", "value": 95 },
                     { "name": "Angular", "value": 33 },
-                    { "name": "Node.js", "value": 45 },
+                    { "name": "Node.js", "value": 50 },
                     { "name": "MongoDB", "value": 33 },
-                    { "name": "Bootstrap", "value": 90 },
-                    { "name": "jQuery", "value": 90 },
-                    { "name": "REST", "value": 23 }
+                    { "name": "REST API", "value": 33 },
+                    { "name": ".NET", "value": 33 }
                 ]
 
         },
     "other_skills" : 
         {
-            "title" : "Non technical Skills",
+            "title" : "Additional Skills",
             "subtitle" :"Most valuable personal competences",
             "skills":
                 [
-                    {"name": "Organization", "value" : 75},
-                    {"name": "Communication", "value" : 75},
-                    {"name": "Flexibility", "value" : 75},
-                    {"name": "Creativity", "value" : 75},
-                    {"name": "Willingness to learn", "value" : 75},
-                    {"name": "Initiative", "value" : 75},
-                    {"name": "Time management", "value" : 75},
-                    {"name": "Self management", "value" : 75},
-                    {"name": "Desition-making", "value" : 75},
-                    {"name": "Teamwork", "value":75},
-                    {"name": "Stress management", "value": 75},
-                    {"name": "Emotional awareness", "value": 75}
+                    {"name": "Communication", "value" : 60},
+                    {"name": "Creativity", "value" : 70},
+                    {"name": "Empathy", "value": 90},
+                    {"name": "Flexibility", "value" : 80},
+                    {"name": "Initiative", "value" : 50},
+                    {"name": "Organization", "value" : 60},
+                    {"name": "Self management", "value" :90},
+                    {"name": "Stress management", "value": 70},
+                    {"name": "Teamwork", "value":100}
                 ]
         },
     "work_experience": 
@@ -199,7 +197,7 @@
                         "period" : "02/2010 – 06/2011",
                         "location": "Online",
                         "center" : "Institut Obert de Catalunya (IOC)",
-                        "duration": "Duration: 1500 hours",
+                        "duration": "Duration: 1440 hours",
                         "content" : 
                             [
                                 {"subject" : "Single-user and multi user computer systems"},

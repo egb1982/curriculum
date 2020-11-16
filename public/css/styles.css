@@ -15,9 +15,31 @@ body {
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-
 }
 
 .progress-bar {
     color: white;
+}
+
+p {
+    white-space: break-spaces;
+}
+
+#iMoveUpBtn {
+    position: sticky;
+    left:calc(50% - 23px);
+    bottom: 10px;
+    -webkit-box-shadow: 5px 5px 8px 0px rgba(0,0,0,0.55);
+    -moz-box-shadow: 5px 5px 8px 0px rgba(0,0,0,0.55);
+    box-shadow: 5px 5px 8px 0px rgba(0,0,0,0.55);    
+}
+
+#iMoveUpBtn {
+    display: none;
+    border-radius: 25px;
+    font-size: 1.5em;
+    opacity: 0.75;
+}
+#iMoveUpBtn:hover {
+    opacity: 1;
 }
