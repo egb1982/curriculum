@@ -93,16 +93,14 @@
                           </svg>
                           <span><%= loc.tech_skills.title %></span></div>
                         <div class="card-body">
-                          <h5 class="card-title"><%= loc.tech_skills.subtitle %></h5>
-                          <p class="card-text">
-                              <div class="row">
-                                  <div class="col">
+                            <h5 class="card-title"><%= loc.tech_skills.subtitle %></h5>
+                            <div class="row my-3">
+                                <div class="col">
                                     <span class="badge badge badge-info"><%= loc.tech_skills.grades.basic %></span>
                                     <span class="badge badge-primary"><%= loc.tech_skills.grades.proficient %></span>
                                     <span class="badge badge-success"><%= loc.tech_skills.grades.expert %></span>
                                 </div>
-                              </div>
-                          </p>
+                            </div>
                           <% loc.tech_skills.skills.forEach((skill) => { %>
                           <div class="row">
                               <div class="col-md-4 col-12"><%= skill.name %></div>
