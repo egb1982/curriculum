@@ -5,7 +5,7 @@ let lastScroll = 0;
  $(document).on('scroll',() => {
 
     let st = $(this).scrollTop();
-    console.log(st,lastScroll,$('#iDownloads').offset().top);
+    //console.log(st,lastScroll,$('#iDownloads').offset().top);
     if (st < lastScroll){
          // upscroll
         if ($('#iNavigation').offset().top < st) {

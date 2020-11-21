@@ -1,0 +1,228 @@
+{
+    "name" : "Emilio Gómez Berlanga",
+    "profession" : "Desarrollador Web Full Stack",
+    "contact": 
+        {
+            "address":"71634 Ludwigsburg, Germany",
+            "email": "egb1982@gmail.com",
+            "phone": "+49 176 4729 6097"
+        },
+    "about_me" : 
+        { 
+            "title" : "Sobre mi", 
+            "text" :"Soy un desarollador de sofware enfocado en el desarrollo web desde más de 8 años. Hace 6 años decidí aceptar el reto de irme al extranjero, concretamente a la zona de Stuttgart dónde vivo y trabajo actualemnte. Estoy deseando encontrar nuevos retos que me acerquen a mis metas como desarollador web 'Full Stack'. Me defino como una persona respetuosa y tranquila en la superficie, pero apasionada con lo que hago, con ganas de aprender y con la mente abierta para aceptar nuevas experiencias y conocimientos." 
+        },
+    "tech_skills" : 
+        { 
+            "title" : "Competencias técnicas",
+            "subtitle": "Competencias técnicas más significativas",
+            "grades": {"basic" : "básico", "proficient" : "competente", "expert" :"experto"},
+            "skills": 
+                [
+                    { "name": "Javascript", "value": 95 },
+                    { "name": "HTML", "value": 95 },
+                    { "name": "CSS/SCSS", "value": 90 },
+                    { "name": "Bootstrap", "value": 95 },
+                    { "name": "jQuery", "value": 95 },
+                    { "name": "Angular", "value": 33 },
+                    { "name": "Node.js", "value": 50 },
+                    { "name": "MongoDB", "value": 33 },
+                    { "name": "REST API", "value": 33 },
+                    { "name": ".NET", "value": 33 }
+                ]
+
+        },
+    "other_skills" : 
+        {
+            "title" : "Competencias adicionales",
+            "subtitle" :"Competencias personales más valorables",
+            "skills":
+                [
+                    {"name": "Comunicación", "value" : 60},
+                    {"name": "Creatividad", "value" : 70},
+                    {"name": "Empatía", "value": 90},
+                    {"name": "Flexibilidad", "value" : 80},
+                    {"name": "Iniciativa", "value" : 50},
+                    {"name": "Organización", "value" : 60},
+                    {"name": "Autogestión", "value" :90},
+                    {"name": "gestión del estrés", "value": 70},
+                    {"name": "Trabajo en equipo", "value":100}
+                ]
+        },
+    "work_experience": 
+        {   
+            "title": "Experiencia laboral",
+            "jobs":
+                [
+                    {
+                        "position" : "Desarrollador web y diseñador",
+                        "period" : "03/2014 - actualmente",
+                        "location": "Stuttgart, Alemania",
+                        "company": "LIB-IT DMS GmbH",
+                        "website": "www.lib-it.de",
+                        "tasks": 
+                            [
+                                {"description" : "Responsable de la interfaz web"},
+                                {"description" : "Dineño web"},
+                                {"description" : "Desarrollo de Backend con Node.js"},
+                                {"description" : "Desarrollo de Backend y Frontend con Intersystems Cache/Iris"},
+                                {"description" : "Desarrollo Frontend con HTML, CSS/SCSS y Javascript"},
+                                {"description" : "Diseño adaptativo con Bootstrap"},
+                                {"description" : "Desarrollo con C#.NET"}
+                            ]
+                    },
+                    {
+                        "position" : "Desarrollador web",
+                        "period" : "06/2011 – 02/2014",
+                        "location": "Barcelona, España",
+                        "company": "ONMEDIC networks ",
+                        "website": "www.onmedic.com",
+                        "tasks": 
+                            [
+                                {"description" : "Desarrollo web con DotNetNuke (dnn)"},
+                                {"description" : "Programación y gestión de bases de datos SQL Server"},
+                                {"description" : "Desarrollo web con Javascript, jQuery, HTML y CSS"},
+                                {"description" : "Realización de módulos para dnn con VB.NET"}
+                            ]
+                    },
+                    {
+                        "position" : "Desarrollo web",
+                        "period" : "11/2010 – 04/2011",
+                        "location": "Sant Feliu de Llobregat, España",
+                        "company": "Ayuntamiento de Sant Feliu de Llobregat",
+                        "website": "https://www.santfeliu.cat",
+                        "tasks": 
+                            [
+                                {"description" : "Modificación de contenido web, incluyendo gestión de peticiones y ejecución de mejoras"},
+                                {"description" : "Programación de PHP scripts"}
+                            ]
+                    },
+                    {
+                        "position" : "Desarrolador de software y Experto IT",
+                        "period" : "05/2007 – 04/2009",
+                        "location": "Barcelona, España",
+                        "company": "Euclides BINDAR",
+                        "website": "http://www.grupoeuclides.com",
+                        "tasks": 
+                            [
+                                {"description" : "Programación en C/AL (Microsoft Dynamics NAV)"},
+                                {"description" : "Desarrollo con ASPX, C#.NET"},
+                                {"description" : "Administrador de sistema"},
+                                {"description" : "Soporte técnico"}
+                            ]
+                    },
+                    {
+                        "position" : "Técnico experto",
+                        "period" : "02/2005 – 04/2007 ",
+                        "location": "Barcelona, España",
+                        "company": "Grupo ALTEN",
+                        "website": "http://www.alten.com",
+                        "tasks": 
+                            [
+                                {"description" : "Tareas de explotación y soporte al departamento de tesorería en CaixaBank"},
+                                {"description" : "Soporte técnico para aplicaciones estándar (office, windows)"},
+                                {"description" : "Soporte técnico para aplicaciones específicas de tesorería (xtra Reuters, Bloomberg)"},
+                                {"description" : "Soporte técnico para hardware e impresoras de red"},
+                                {"description" : "Copia y mantenimiento de cintas de seguridad"}
+                            ]
+                    },
+                    {
+                        "position" : "Soporte técnico",
+                        "period" : "12/2003 – 02/2005",
+                        "location": "Barcelona, España",
+                        "company": "Everis (before DMR-Qualitas)",
+                        "website": "https://www.everis.com",
+                        "tasks": 
+                            [
+                                {"description" : "Soporte técnico"},
+                                {"description" : "Servicio de asistencia remota"}
+                            ]
+                    }                                                  
+                ]
+    
+        },
+    "education" : 
+        {
+            "title" : "Educación",
+            "studies" :
+                [
+                    {
+                        "title" : "Experto en desarollo web Full Stack",
+                        "period" : "02/2019 - 02/2020",
+                        "location": "Online, Inglés",
+                        "center" : "Edureka e-learning platform",
+                        "duration": "Duración: 200 horas",
+                        "content" : 
+                            [
+                                {"subject" : "Certificación en desarrollo web"},
+                                {"subject" : "Certificación en desarrollo con jQuery"},
+                                {"subject" : "Formación para certificación en MongoDB"},
+                                {"subject" : "Formación para certificación en Angular"},
+                                {"subject" : "Formación para certificación en Node.js"},
+                                {"subject" : "Proyecto final: Desarrollo de una aplicación web de portal para estudiantes que proporciona un sistema de gestión de actividades de estudiantes basado en web para todos los estudiantes universitarios / escolares. Implementado como aplicación MEAN / Full Stack seguida de arquitectura MVC y un servicio web RESTful."}
+                            ]
+                    },
+                    {
+                        "title" : "Certificate of higher education in informatic applications development",
+                        "period" : "09/2001 – 06/2003",
+                        "location": "Barcelona",
+                        "center" : "I.E.S Rambla Prim",
+                        "duration": "Duración: 2000 hours",
+                        "content" : 
+                            [
+                                {"subject" : "Operating systems"},
+                                {"subject" : "Local area networks"},
+                                {"subject" : "Analysis and design of databases"},
+                                {"subject" : "Structured and modular programming (C)"},
+                                {"subject" : "Advanced programming (JAVA)"},
+                                {"subject" : "Analysis and design of applications"},
+                                {"subject" : "4th generation environments and with CASE tools"},
+                                {"subject" : "Design and presentation services in graphical environments(Visual Basic,Delphi)"}
+                            ]
+                    },
+                    {
+                        "title" : "Web and multimedia design training",
+                        "period" : "09/2009 – 02/2010",
+                        "location": "Barcelona",
+                        "center" : "Innovational and professional training center La Violeta",
+                        "duration": "Duración: 384 hours",
+                        "content" : 
+                            [
+                                {"subject" : "3D Design (Lightwave)"},
+                                {"subject" : "Web Design (Photoshop, Adobe Flash, Dreamweaver)"}
+                            ]
+                    },
+                    {
+                        "title" : "Higher Education in IT systems management (not certified)",
+                        "period" : "02/2010 – 06/2011",
+                        "location": "Online",
+                        "center" : "Institut Obert de Catalunya (IOC)",
+                        "duration": "Duración: 1440 hours",
+                        "content" : 
+                            [
+                                {"subject" : "Single and multi user computer systems"},
+                                {"subject" : "Management of local area networks"},
+                                {"subject" : "Implementation of IT and management applications"},
+                                {"subject" : "Administration of management systems databases"},
+                                {"subject" : "Development of functions in the computer system"}
+                            ]
+                    }                                                          
+                ]
+        },
+    "languages" : 
+        { 
+            "title" : "Languages",
+            "list": 
+                [ 
+                    { "name" : "Catalan", "skill" : "Mother tongue", "value": 100 },
+                    { "name" : "Spanish", "skill" : "Mother tongue", "value": 100 },
+                    { "name" : "English", "skill" : "Professional Working Proficiency", "value": 75  },
+                    { "name" : "German", "skill" : "B2 Certification", "value": 66 }
+                ]
+        },
+    "downloads" : 
+        {
+            "title" : "Downloads"
+        }
+
+}
