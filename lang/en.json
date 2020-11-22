@@ -36,6 +36,7 @@
         {
             "title" : "Additional Skills",
             "subtitle" :"Most valuable personal competences",
+            "grades": {"basic" : "basic", "proficient" : "medium", "expert" :"high"},
             "skills":
                 [
                     {"name": "Communication", "value" : 60},
@@ -204,7 +205,8 @@
                                 {"subject" : "Management of local area networks"},
                                 {"subject" : "Implementation of IT and management applications"},
                                 {"subject" : "Administration of management systems databases"},
-                                {"subject" : "Development of functions in the computer system"}
+                                {"subject" : "Development of functions in the computer system"},
+                                {"subject" : "Database management systems"}
                             ]
                     }                                                          
                 ]
@@ -214,10 +216,10 @@
             "title" : "Languages",
             "list": 
                 [ 
-                    { "name" : "Catalan", "skill" : "Mother tongue", "value": 100 },
-                    { "name" : "Spanish", "skill" : "Mother tongue", "value": 100 },
-                    { "name" : "English", "skill" : "Professional Working Proficiency", "value": 75  },
-                    { "name" : "German", "skill" : "B2 Certification", "value": 66 }
+                    { "code": "ca" ,"name" : "Catalan", "skill" : "Mother tongue", "value": 100 },
+                    { "code": "es" ,"name" : "Spanish", "skill" : "Mother tongue", "value": 100 },
+                    { "code": "en" ,"name" : "English", "skill" : "Professional Working Proficiency", "value": 75  },
+                    { "code": "de" ,"name" : "German", "skill" : "B2 Certification", "value": 66 }
                 ]
         },
     "downloads" : 

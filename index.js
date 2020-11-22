@@ -1,4 +1,4 @@
-const { json } = require('body-parser');
+const bodyParser = require('body-parser');
 const express = require('express');
 const app = express();
 const i18n = require('express-tongue');
@@ -9,13 +9,15 @@ app.use(i18n.localize({
     queryStringEnabled: true
 }));
 
-app.use(express.json());
+app.use(bodyParser.urlencoded({ extended: false }))
+app.use(bodyParser.json());
+//app.use(express.json());
 app.use(express.static(__dirname + '/public'));
 app.use(express.static(__dirname + '/node_modules'));
 app.set('view engine', 'ejs');
 
 app.get('/',(req,res) => {
-    res.status(200).render('main',{ loc : res.locals.i18n});
+    res.status(200).render('main',{ loc : res.locals.i18n, lang : req.query.hl || 'en' });
 });
 
 const PORT = process.env.PORT || 8080;

@@ -36,6 +36,7 @@
         {
             "title" : "Competencias adicionales",
             "subtitle" :"Competencias personales más valorables",
+            "grades": {"basic" : "básica", "proficient" : "media", "expert" :"alta"},
             "skills":
                 [
                     {"name": "Comunicación", "value" : 60},
@@ -127,7 +128,7 @@
                             ]
                     },
                     {
-                        "position" : "Soporte técnico",
+                        "position" : "Agente de soporte técnico",
                         "period" : "12/2003 – 02/2005",
                         "location": "Barcelona, España",
                         "company": "Everis (before DMR-Qualitas)",
@@ -163,48 +164,49 @@
                             ]
                     },
                     {
-                        "title" : "Certificate of higher education in informatic applications development",
+                        "title" : "Grado superior en desarrollo de aplicaciones informáticas",
                         "period" : "09/2001 – 06/2003",
                         "location": "Barcelona",
                         "center" : "I.E.S Rambla Prim",
-                        "duration": "Duración: 2000 hours",
+                        "duration": "Duración: 2000 horas",
                         "content" : 
                             [
-                                {"subject" : "Operating systems"},
-                                {"subject" : "Local area networks"},
-                                {"subject" : "Analysis and design of databases"},
-                                {"subject" : "Structured and modular programming (C)"},
-                                {"subject" : "Advanced programming (JAVA)"},
-                                {"subject" : "Analysis and design of applications"},
-                                {"subject" : "4th generation environments and with CASE tools"},
-                                {"subject" : "Design and presentation services in graphical environments(Visual Basic,Delphi)"}
+                                {"subject" : "Systemas operativos"},
+                                {"subject" : "Redes de area local"},
+                                {"subject" : "Análisis y diseño de bases de datos"},
+                                {"subject" : "Programación strucurada y modular (C)"},
+                                {"subject" : "Programación avanzada (JAVA)"},
+                                {"subject" : "Análisis y diseño de aplicaciones"},
+                                {"subject" : "Entornos de cuarta generación con herramientas CASE"},
+                                {"subject" : "Diseño y presentación de servicios en entornos gráficos (Visual Basic, Delphi)"}
                             ]
                     },
                     {
-                        "title" : "Web and multimedia design training",
+                        "title" : "Formación en diseño web y multimedia",
                         "period" : "09/2009 – 02/2010",
                         "location": "Barcelona",
-                        "center" : "Innovational and professional training center La Violeta",
-                        "duration": "Duración: 384 hours",
+                        "center" : "Centro de innovación y formación ocupacional La Violeta",
+                        "duration": "Duración: 384 horas",
                         "content" : 
                             [
-                                {"subject" : "3D Design (Lightwave)"},
-                                {"subject" : "Web Design (Photoshop, Adobe Flash, Dreamweaver)"}
+                                {"subject" : "Diseño 3D (Lightwave)"},
+                                {"subject" : "Diseño Web (Photoshop, Adobe Flash, Dreamweaver)"}
                             ]
                     },
                     {
-                        "title" : "Higher Education in IT systems management (not certified)",
+                        "title" : "Grado superior en administración de sistemas informáticos (no certificado)",
                         "period" : "02/2010 – 06/2011",
                         "location": "Online",
                         "center" : "Institut Obert de Catalunya (IOC)",
-                        "duration": "Duración: 1440 hours",
+                        "duration": "Duración: 1440 horas",
                         "content" : 
                             [
-                                {"subject" : "Single and multi user computer systems"},
-                                {"subject" : "Management of local area networks"},
-                                {"subject" : "Implementation of IT and management applications"},
-                                {"subject" : "Administration of management systems databases"},
-                                {"subject" : "Development of functions in the computer system"}
+                                {"subject" : "Sistemas informáticos mono y multi usuario"},
+                                {"subject" : "Gestión de redes de área local"},
+                                {"subject" : "Implantación de aplicaciones informáticas de gestión"},
+                                {"subject" : "Fundamentos de programación"},
+                                {"subject" : "Desarrollo de funciones en el sistema informático"},
+                                {"subject" : "Sistemas gestores de bases de datos"}
                             ]
                     }                                                          
                 ]
@@ -214,10 +216,10 @@
             "title" : "Languages",
             "list": 
                 [ 
-                    { "name" : "Catalan", "skill" : "Mother tongue", "value": 100 },
-                    { "name" : "Spanish", "skill" : "Mother tongue", "value": 100 },
-                    { "name" : "English", "skill" : "Professional Working Proficiency", "value": 75  },
-                    { "name" : "German", "skill" : "B2 Certification", "value": 66 }
+                    { "code": "ca" , "name" : "Catalan", "skill" : "Lengua materna", "value": 100 },
+                    { "code": "es" , "name" : "Español", "skill" : "Lengua Materna", "value": 100 },
+                    { "code": "en" , "name" : "Inglés", "skill" : "Competencia laboral profesional", "value": 75  },
+                    { "code": "de" , "name" : "Alemán", "skill" : "Certficado B2", "value": 66 }
                 ]
         },
     "downloads" : 
