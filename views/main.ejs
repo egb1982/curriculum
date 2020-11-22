@@ -10,7 +10,7 @@
 
         <link rel="stylesheet" href="/css/styles.css">
 
-        <title>Curriculum vitae</title>
+        <title><%= loc.name %> - <%= loc.profession %></title>
     </head>
     <body>
         <div class="container">           
@@ -19,7 +19,7 @@
                     <div class="row">
                         <div class="col">
                             <h1 class="display-4"><%= loc.name %></h1>
-                            <p class="lead text-success"><%= loc.profession %></p>    
+                            <h2 class="text-success"><%= loc.profession %></h2>    
                         </div>
                         <div class="col-auto">
                             <img id='iProfileImage' src="/img/profilePicture.jpg" alt="Emilio Gómez Berlanga" class="img-thumbnail" width="200px" height="200px"> 
@@ -46,8 +46,13 @@
                     <a href="tel:<%= loc.contact.phone %>"><%= loc.contact.phone %></a>
                 </div>
             </div>            
-            <nav id='iNavigation' class="navbar navbar-expand-lg navbar-dark bg-primary mb-5">
-                <a class="navbar-brand" href="#">EN</a>
+            <nav id='iNavigation' class="navbar navbar-expand-lg navbar-dark bg-primary mb-5 d-print-none">
+                <a class="navbar-brand dropdown-toggle text-uppercase" href="#" data-toggle="dropdown"><%= lang %></a>
+                <div class="dropdown-menu">
+                    <% loc.languages.list.forEach((language) => { %> 
+                        <a class="dropdown-item <%= (lang == language.code) ? 'active' : '' %>" href="./?hl=<%= language.code %>"><%= language.name %></a>
+                        <% }); %>   
+                  </div>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#iNavigationLinks" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
@@ -86,8 +91,8 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-6 col-12">
-                    <div id="iTechSkills" class="card border-success mb-3">
+                <div class="col-md-6 col-12 mb-3">
+                    <div id="iTechSkills" class="card border-success mb-3 h-100">
                         <div class="card-header bg-success text-white h5"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-cpu-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" d="M5.5.5a.5.5 0 0 0-1 0V2A2.5 2.5 0 0 0 2 4.5H.5a.5.5 0 0 0 0 1H2v1H.5a.5.5 0 0 0 0 1H2v1H.5a.5.5 0 0 0 0 1H2v1H.5a.5.5 0 0 0 0 1H2A2.5 2.5 0 0 0 4.5 14v1.5a.5.5 0 0 0 1 0V14h1v1.5a.5.5 0 0 0 1 0V14h1v1.5a.5.5 0 0 0 1 0V14h1v1.5a.5.5 0 0 0 1 0V14a2.5 2.5 0 0 0 2.5-2.5h1.5a.5.5 0 0 0 0-1H14v-1h1.5a.5.5 0 0 0 0-1H14v-1h1.5a.5.5 0 0 0 0-1H14v-1h1.5a.5.5 0 0 0 0-1H14A2.5 2.5 0 0 0 11.5 2V.5a.5.5 0 0 0-1 0V2h-1V.5a.5.5 0 0 0-1 0V2h-1V.5a.5.5 0 0 0-1 0V2h-1V.5zm1 4.5A1.5 1.5 0 0 0 5 6.5v3A1.5 1.5 0 0 0 6.5 11h3A1.5 1.5 0 0 0 11 9.5v-3A1.5 1.5 0 0 0 9.5 5h-3zm0 1a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z"/>
                           </svg>
@@ -103,7 +108,7 @@
                             </div>
                           <% loc.tech_skills.skills.forEach((skill) => { %>
                           <div class="row">
-                              <div class="col-md-4 col-12"><%= skill.name %></div>
+                              <div class="col-md-4 col-12 pr-0"><%= skill.name %></div>
                               <div class="col-md-8 col-12">
                                 <div class="progress">
                                     <% if (skill.value <= 33) { %>
@@ -123,8 +128,8 @@
                         </div>
                     </div>    
                 </div>
-                <div class="col-md-6 col-12">
-                    <div id="iOtherSkills" class="card border-info mb-3">
+                <div class="col-md-6 col-12 mb-3">
+                    <div id="iOtherSkills" class="card border-info mb-3 h-100">
                         <div class="card-header bg-info text-white h5">
                             <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-bar-chart-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                 <rect width="4" height="5" x="1" y="10" rx="1"/>
@@ -135,9 +140,16 @@
                         </div>
                         <div class="card-body">
                           <h5 class="card-title"><%= loc.other_skills.subtitle %></h5>
+                          <div class="row my-3">
+                            <div class="col">
+                                <span class="badge badge badge-info"><%= loc.other_skills.grades.basic %></span>
+                                <span class="badge badge-primary"><%= loc.other_skills.grades.proficient %></span>
+                                <span class="badge badge-success"><%= loc.other_skills.grades.expert %></span>
+                            </div>
+                        </div>
                           <% loc.other_skills.skills.forEach((skill) => { %>
                             <div class="row">
-                                <div class="col-md-4 col-12"><%= skill.name %></div>
+                                <div class="col-md-4 col-12 pr-0"><%= skill.name %></div>
                                 <div class="col-md-8 col-12">
                                   <div class="progress">
                                       <% if (skill.value <= 33) { %>
@@ -159,8 +171,8 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-6 col-12">
-                    <div id="iWorkExperience" class="card border-success mb-3">
+                <div class="col-md-6 col-12 mb-3">
+                    <div id="iWorkExperience" class="card border-success h-100">
                         <div class="card-header bg-success text-white h5">
                             <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-laptop" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" d="M13.5 3h-11a.5.5 0 0 0-.5.5V11h12V3.5a.5.5 0 0 0-.5-.5zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2h-11z"/>
@@ -188,8 +200,8 @@
                         </div>
                     </div>    
                 </div>
-                <div class="col-md-6 col-12">
-                    <div id="iEducation" class="card border-info mb-3">
+                <div class="col-md-6 col-12 mb-3">
+                    <div id="iEducation" class="card border-info h-100">
                         <div class="card-header text-white bg-info h5">
                             <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-book" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" d="M1 2.828v9.923c.918-.35 2.107-.692 3.287-.81 1.094-.111 2.278-.039 3.213.492V2.687c-.654-.689-1.782-.886-3.112-.752-1.234.124-2.503.523-3.388.893zm7.5-.141v9.746c.935-.53 2.12-.603 3.213-.493 1.18.12 2.37.461 3.287.811V2.828c-.885-.37-2.154-.769-3.388-.893-1.33-.134-2.458.063-3.112.752zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"/>
@@ -233,7 +245,7 @@
                         <h5 class="card-title"></h5>                        
                         <% loc.languages.list.forEach((lang) => { %> 
                             <div class="row">
-                                <div class="col-md-3 col-12"><%= lang.name %></div>
+                                <div class="col-md-3 col-12 pr-0"><%= lang.name %></div>
                                 <div class="col-md-9 col-12">
                                     <div class="progress">
                                         <% let bgclass = "" %>
@@ -247,7 +259,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-12">
+                <div class="col-md-6 col-12 d-print-none">
                     <div id="iDownloads" class="card border-primary mb-3">
                         <div class="card-header text-success bg-primary h5">
                             <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-download" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -264,7 +276,7 @@
                 </div>
             </div>
         </div>
-        <a href="#iNavigation" id="iMoveUpBtn" class="btn btn-default btn-success position-fixed fixed-bottom">
+        <a href="#iNavigation" id="iMoveUpBtn" class="btn btn-default btn-success position-fixed fixed-bottom d-print-none">
             <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-up" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z"/>
           </svg>
