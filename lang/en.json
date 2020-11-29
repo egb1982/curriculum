@@ -32,24 +32,6 @@
                 ]
 
         },
-    "other_skills" : 
-        {
-            "title" : "Additional Skills",
-            "subtitle" :"Most valuable personal competences",
-            "grades": {"basic" : "basic", "proficient" : "medium", "expert" :"high"},
-            "skills":
-                [
-                    {"name": "Communication", "value" : 60},
-                    {"name": "Creativity", "value" : 70},
-                    {"name": "Empathy", "value": 90},
-                    {"name": "Flexibility", "value" : 80},
-                    {"name": "Initiative", "value" : 50},
-                    {"name": "Organization", "value" : 60},
-                    {"name": "Self management", "value" :90},
-                    {"name": "Stress management", "value": 70},
-                    {"name": "Teamwork", "value":100}
-                ]
-        },
     "work_experience": 
         {   
             "title": "Work experience",
@@ -70,7 +52,20 @@
                                 {"description" : "Frontend development with HTML, CSS and SCSS, Javascript"},
                                 {"description" : "Responsive design with Bootstrap"},
                                 {"description" : "Development with C#.NET"}
-                            ]
+                            ],
+                        "soft_skills" : 
+                        {
+                            "title" : "Developed competences",
+                            "skills":
+                                [
+                                    {"name": "Creativity"},
+                                    {"name": "Flexibility"},
+                                    {"name": "Initiative"},
+                                    {"name": "Organization"},
+                                    {"name": "Self management"},
+                                    {"name": "Teamwork"}
+                                ]
+                        }    
                     },
                     {
                         "position" : "Web Developer ",
@@ -84,7 +79,18 @@
                                 {"description" : "SQL Server Databases management and programming"},
                                 {"description" : "Web development with Javascript, jQuery, HTML, CSS"},
                                 {"description" : "Performing modules for dnn with VB.NET"}
-                            ]
+                            ],
+                        "soft_skills" : 
+                        {
+                            "title" : "Developed competences",
+                            "skills":
+                                [
+
+                                    {"name": "Initiative"},
+                                    {"name": "Self management"},
+                                    {"name": "Teamwork"}
+                                ]
+                        }                            
                     },
                     {
                         "position" : "Web Developer",
@@ -96,7 +102,17 @@
                             [
                                 {"description" : "Modification of web contents including requests management and enhancements execution"},
                                 {"description" : "PHP scripts programming"}
-                            ]
+                            ],
+                        "soft_skills" : 
+                        {
+                            "title" : "Developed competences",
+                            "skills":
+                                [
+                                    {"name": "Initiative"},
+                                    {"name": "Organization"},
+                                    {"name": "Self management"}
+                                ]
+                        }                            
                     },
                     {
                         "position" : "Software developer and IT Expert",
@@ -110,7 +126,17 @@
                                 {"description" : "Development with ASPX, C#.NET"},
                                 {"description" : "System administrator"},
                                 {"description" : "Technical support"}
-                            ]
+                            ],
+                        "soft_skills" : 
+                        {
+                            "title" : "Developed competences",
+                            "skills":
+                                [
+                                    {"name": "Communication"},
+                                    {"name": "Organization"},
+                                    {"name": "Self management"}
+                                ]
+                        }                            
                     },
                     {
                         "position" : "Technical expert",
@@ -125,7 +151,18 @@
                                 {"description" : "Technical support for specific applications of treasury (xtra Reuters, Bloomberg)"},
                                 {"description" : "Technical support for hardware and network printers"},
                                 {"description" : "Copy and maintaining security tapes"}
-                            ]
+                            ],
+                        "soft_skills" : 
+                        {
+                            "title" : "Developed competences",
+                            "skills":
+                                [
+                                    {"name": "Communication"},
+                                    {"name": "Empathy"},
+                                    {"name": "Organization"},
+                                    {"name": "Stress management"}
+                                ]
+                        }                            
                     },
                     {
                         "position" : "Technical support agent",
@@ -137,7 +174,18 @@
                             [
                                 {"description" : "Technical support"},
                                 {"description" : "Help Desk"}
-                            ]
+                            ],
+                        "soft_skills" : 
+                        {
+                            "title" : "Developed competences",
+                            "skills":
+                                [
+                                    {"name": "Communication"},
+                                    {"name": "Empathy"},
+                                    {"name": "Self management"},
+                                    {"name": "Teamwork"}
+                                ]
+                        }                            
                     }                                                  
                 ]
     
@@ -221,10 +269,5 @@
                     { "code": "en" ,"name" : "English", "skill" : "Professional Working Proficiency", "value": 75  },
                     { "code": "de" ,"name" : "German", "skill" : "B2 Certification", "value": 66 }
                 ]
-        },
-    "downloads" : 
-        {
-            "title" : "Downloads"
         }
-
 }

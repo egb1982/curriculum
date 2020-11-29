@@ -17,7 +17,12 @@ app.use(express.static(__dirname + '/node_modules'));
 app.set('view engine', 'ejs');
 
 app.get('/',(req,res) => {
-    res.status(200).render('main',{ loc : res.locals.i18n, lang : req.query.hl || 'en' });
+    res.status(200).render('main',{ loc : res.locals.i18n, lang : req.query.hl || 'en', pdf : req.query.pdf || 0 });
+});
+
+app.get('/download/:lang',(req,res) => {
+    const fileName = "egomez_cv_" + req.params.lang + '.pdf';
+    res.sendFile(fileName);
 });
 
 const PORT = process.env.PORT || 8080;

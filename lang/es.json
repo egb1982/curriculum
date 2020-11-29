@@ -3,7 +3,7 @@
     "profession" : "Desarrollador Web Full Stack",
     "contact": 
         {
-            "address":"71634 Ludwigsburg, Germany",
+            "address":"71634 Ludwigsburg, Alemania",
             "email": "egb1982@gmail.com",
             "phone": "+49 176 4729 6097"
         },
@@ -32,24 +32,6 @@
                 ]
 
         },
-    "other_skills" : 
-        {
-            "title" : "Competencias adicionales",
-            "subtitle" :"Competencias personales más valorables",
-            "grades": {"basic" : "básica", "proficient" : "media", "expert" :"alta"},
-            "skills":
-                [
-                    {"name": "Comunicación", "value" : 60},
-                    {"name": "Creatividad", "value" : 70},
-                    {"name": "Empatía", "value": 90},
-                    {"name": "Flexibilidad", "value" : 80},
-                    {"name": "Iniciativa", "value" : 50},
-                    {"name": "Organización", "value" : 60},
-                    {"name": "Autogestión", "value" :90},
-                    {"name": "gestión del estrés", "value": 70},
-                    {"name": "Trabajo en equipo", "value":100}
-                ]
-        },
     "work_experience": 
         {   
             "title": "Experiencia laboral",
@@ -70,7 +52,20 @@
                                 {"description" : "Desarrollo Frontend con HTML, CSS/SCSS y Javascript"},
                                 {"description" : "Diseño adaptativo con Bootstrap"},
                                 {"description" : "Desarrollo con C#.NET"}
-                            ]
+                            ],
+                        "soft_skills" : 
+                        {
+                            "title" : "Competencias desarrolladas",
+                            "skills":
+                                [
+                                    {"name": "Creatividad"},
+                                    {"name": "Flexibilidad"},
+                                    {"name": "Iniciativa"},
+                                    {"name": "Organización"},
+                                    {"name": "Autogestión"},
+                                    {"name": "Trabajo en equipo"}
+                                ]
+                        }                         
                     },
                     {
                         "position" : "Desarrollador web",
@@ -84,7 +79,17 @@
                                 {"description" : "Programación y gestión de bases de datos SQL Server"},
                                 {"description" : "Desarrollo web con Javascript, jQuery, HTML y CSS"},
                                 {"description" : "Realización de módulos para dnn con VB.NET"}
-                            ]
+                            ],
+                        "soft_skills" : 
+                        {
+                            "title" : "Competencias desarrolladas",
+                            "skills":
+                                [
+                                    {"name": "Iniciativa"},
+                                    {"name": "Autogestión"},
+                                    {"name": "Trabajo en equipo"}
+                                ]
+                        } 
                     },
                     {
                         "position" : "Desarrollo web",
@@ -96,7 +101,17 @@
                             [
                                 {"description" : "Modificación de contenido web, incluyendo gestión de peticiones y ejecución de mejoras"},
                                 {"description" : "Programación de PHP scripts"}
-                            ]
+                            ],
+                        "soft_skills" : 
+                        {
+                            "title" : "Competencias desarrolladas",
+                            "skills":
+                                [
+                                    {"name": "Iniciativa"},
+                                    {"name": "Organización"},
+                                    {"name": "Autogestión"}
+                                ]
+                        } 
                     },
                     {
                         "position" : "Desarrolador de software y Experto IT",
@@ -110,7 +125,17 @@
                                 {"description" : "Desarrollo con ASPX, C#.NET"},
                                 {"description" : "Administrador de sistema"},
                                 {"description" : "Soporte técnico"}
-                            ]
+                            ],
+                        "soft_skills" : 
+                        {
+                            "title" : "Competencias desarrolladas",
+                            "skills":
+                                [
+                                    {"name": "Comunicación"},
+                                    {"name": "Organización"},
+                                    {"name": "Autogestión"}
+                                ]
+                        } 
                     },
                     {
                         "position" : "Técnico experto",
@@ -125,7 +150,18 @@
                                 {"description" : "Soporte técnico para aplicaciones específicas de tesorería (xtra Reuters, Bloomberg)"},
                                 {"description" : "Soporte técnico para hardware e impresoras de red"},
                                 {"description" : "Copia y mantenimiento de cintas de seguridad"}
-                            ]
+                            ],
+                        "soft_skills" : 
+                        {
+                            "title" : "Competencias desarrolladas",
+                            "skills":
+                                [
+                                    {"name": "Comunicación"},
+                                    {"name": "Empatía"},
+                                    {"name": "Organización"},
+                                    {"name": "gestión del estrés"}
+                                ]
+                        } 
                     },
                     {
                         "position" : "Agente de soporte técnico",
@@ -137,7 +173,18 @@
                             [
                                 {"description" : "Soporte técnico"},
                                 {"description" : "Servicio de asistencia remota"}
-                            ]
+                            ],
+                        "soft_skills" : 
+                        {
+                            "title" : "Competencias desarrolladas",
+                            "skills":
+                                [
+                                    {"name": "Comunicación"},
+                                    {"name": "Empatía"},
+                                    {"name": "Autogestión"},
+                                    {"name": "Trabajo en equipo"}
+                                ]
+                        } 
                     }                                                  
                 ]
     
@@ -213,7 +260,7 @@
         },
     "languages" : 
         { 
-            "title" : "Languages",
+            "title" : "Idiomas",
             "list": 
                 [ 
                     { "code": "ca" , "name" : "Catalan", "skill" : "Lengua materna", "value": 100 },
@@ -221,10 +268,5 @@
                     { "code": "en" , "name" : "Inglés", "skill" : "Competencia laboral profesional", "value": 75  },
                     { "code": "de" , "name" : "Alemán", "skill" : "Certficado B2", "value": 66 }
                 ]
-        },
-    "downloads" : 
-        {
-            "title" : "Downloads"
         }
-
 }
