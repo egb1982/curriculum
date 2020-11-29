@@ -22,7 +22,7 @@ app.get('/',(req,res) => {
 
 app.get('/download/:lang',(req,res) => {
     const fileName = "egomez_cv_" + req.params.lang + '.pdf';
-    res.sendFile(fileName);
+    res.download(__dirname + "/public/pdfs/" + fileName);
 });
 
 const PORT = process.env.PORT || 8080;
