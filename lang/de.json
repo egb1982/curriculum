@@ -1,0 +1,273 @@
+{
+    "name" : "Emilio Gómez Berlanga",
+    "profession" : "Full Stack Web Entwickler",
+    "contact": 
+        {
+            "address":"71634 Ludwigsburg, Deutschland",
+            "email": "egb1982@gmail.com",
+            "phone": "+49 176 4729 6097"
+        },
+    "about_me" : 
+        { 
+            "title" : "Über mich", 
+            "text" : "Ich bin ein Softwareentwickler, der sich seit mehr als 8 Jahren auf Webentwicklung konzentriert. Ich habe mich vor 6 Jahren der Herausforderung gestellt, in der Region Stuttgart, in der ich derzeit ansässig bin, ins Ausland zu gehen. Ich bin gespannt auf neue Herausforderungen, die es mir ermöglichen Entwickle meine Karriere als Full Stack Web Developer. \nIch definiere mich als eine respektvolle und ruhige Person im Vordergrund, aber leidenschaftlich mit dem, was ich tue, neugierig und offen für neue Erfahrungen und Kenntnisse."
+        },
+    "tech_skills" : 
+        { 
+            "title" : "Technische Fähigkeiten",
+            "subtitle": "Wichtigste technische Kompetenzen",
+            "grades": {"basic" : "grundlegend", "proficient" : "kompetent", "expert" :"Experte"},
+            "skills": 
+                [
+                    { "name": "Javascript", "value": 95 },
+                    { "name": "HTML", "value": 95 },
+                    { "name": "CSS/SCSS", "value": 90 },
+                    { "name": "Bootstrap", "value": 95 },
+                    { "name": "jQuery", "value": 95 },
+                    { "name": "Angular", "value": 33 },
+                    { "name": "Node.js", "value": 50 },
+                    { "name": "MongoDB", "value": 33 },
+                    { "name": "REST API", "value": 33 },
+                    { "name": ".NET", "value": 33 }
+                ]
+
+        },
+    "work_experience": 
+        {   
+            "title": "Berufserfahrung",
+            "jobs":
+                [
+                    {
+                        "position" : "Webentwickler und Designer",
+                        "period" : "03.2014 - aktuell",
+                        "location": "Stuttgart, Deutschland",
+                        "company": "LIB-IT DMS GmbH",
+                        "website": "www.lib-it.de",
+                        "tasks": 
+                            [
+                                {"description" : "Leiter der Entwicklung der Web-Benutzeroberfläche"},
+                                {"description" : "Webdesign"},
+                                {"description" : "Backend-Entwicklung mit Node.js"},
+                                {"description" : "Backend und Frontend-Entwicklung mit Intersystems Cache / Iris"},
+                                {"description" : "Frontend-Entwicklung mit HTML, CSS und SCSS, Javascript"},
+                                {"description" : "Responsive Design with Bootstrap"},
+                                {"description" : "Entwicklung mit C # .NET"}
+                            ],
+                        "soft_skills" : 
+                        {
+                            "title" : "Entwickelte Kompetenzen",
+                            "skills":
+                                [
+                                    {"name": "Kreativität"},
+                                    {"name": "Flexibilität"},
+                                    {"name": "Initiative"},
+                                    {"name": "Organisation"},
+                                    {"name": "Selbstverwaltung"},
+                                    {"name": "Teamwork"}
+                                ]
+                        }    
+                    },
+                    {
+                        "position" : "Webentwickler ",
+                        "period" : "06.2011 – 02.2014",
+                        "location": "Barcelona, Spanien",
+                        "company": "ONMEDIC networks ",
+                        "website": "www.onmedic.com",
+                        "tasks": 
+                            [
+                                {"description" : "Webentwicklung mit DotNetNuke (dnn)"},
+                                {"description" : "Verwaltung und Programmierung von SQL Server-Datenbanken"},
+                                {"description" : "Webentwicklung mit Javascript, jQuery, HTML, CSS"},
+                                {"description" : "Durchführen von Modulen für dnn mit VB.NET"}
+                            ],
+                        "soft_skills" : 
+                        {
+                            "title" : "Entwickelte Kompetenzen",
+                            "skills":
+                                [
+
+                                    {"name": "Initiative"},
+                                    {"name": "Selbstverwaltung"},
+                                    {"name": "Teamwork"}
+                                ]
+                        }                            
+                    },
+                    {
+                        "position" : "Webentwickler",
+                        "period" : "11.2010 – 04.2011",
+                        "location": "Sant Feliu de Llobregat, Spanien",
+                        "company": "Stadtrat von Sant Feliu de Llobregat",
+                        "website": "https://www.santfeliu.cat",
+                        "tasks": 
+                            [
+                                {"description" : "Änderung von Webinhalten einschließlich Anforderungsverwaltung und Ausführung von Verbesserungen"},
+                                {"description" : "Programmierung von PHP-Skripten"}
+                            ],
+                        "soft_skills" : 
+                        {
+                            "title" : "Entwickelte Kompetenzen",
+                            "skills":
+                                [
+                                    {"name": "Initiative"},
+                                    {"name": "Organisation"},
+                                    {"name": "Selbstverwaltung"}
+                                ]
+                        }                            
+                    },
+                    {
+                        "position" : "Softwareentwickler und IT-Experte",
+                        "period" : "05.2007 – 04.2009",
+                        "location": "Barcelona, Spanien",
+                        "company": "Euclides BINDAR",
+                        "website": "http://www.grupoeuclides.com",
+                        "tasks": 
+                            [
+                                {"description" : "Programmierung in C / AL (Microsoft Dynamics NAV)"},
+                                {"description" : "Entwicklung mit ASPX, C # .NET"},
+                                {"description" : "Systemadministrator"},
+                                {"description" : "Technischer Support"}
+                            ],
+                        "soft_skills" : 
+                        {
+                            "title" : "Entwickelte Kompetenzen",
+                            "skills":
+                                [
+                                    {"name": "Kommunikation"},
+                                    {"name": "Organisation"},
+                                    {"name": "Selbstverwaltung"}
+                                ]
+                        }                            
+                    },
+                    {
+                        "position" : "Technischer Experte",
+                        "period" : "02.2005 – 04.2007 ",
+                        "location": "Barcelona, Spanien",
+                        "company": "Grupo ALTEN",
+                        "website": "http://www.alten.com",
+                        "tasks": 
+                            [
+                                {"description" : "OperatingTasks and Support für die Treasury-Abteilung in der CaixaBank"},
+                                {"description" : "Technischer Support für Standardanwendungen (Büro, Windows)"},
+                                {"description" : "Technischer Support für bestimmte Anwendungen des Finanzministeriums (xtra Reuters, Bloomberg)"},
+                                {"description" : "Technischer Support für Hardware und Netzwerkdrucker"},
+                                {"description" : "Kopieren und Verwalten von Sicherheitsbändern"}
+                            ],
+                        "soft_skills" : 
+                        {
+                            "title" : "Entwickelte Kompetenzen",
+                            "skills":
+                                [
+                                    {"name": "Kommunikation"},
+                                    {"name": "Empathie"},
+                                    {"name": "Organisation"},
+                                    {"name": "Stressbewältigung"}
+                                ]
+                        }                            
+                    },
+                    {
+                        "position" : "Technischer Support-Mitarbeiter",
+                        "period" : "12.2003 – 02.2005",
+                        "location": "Barcelona, Spanien",
+                        "company": "Everis (vor DMR-Qualitas)",
+                        "website": "https://www.everis.com",
+                        "tasks": 
+                            [
+                                {"description" : "Technischer Support"},
+                                {"description" : "Help Desk"}
+                            ],
+                        "soft_skills" : 
+                        {
+                            "title" : "Entwickelte Kompetenzen",
+                            "skills":
+                                [
+                                    {"name": "Kommunikation"},
+                                    {"name": "Empathie"},
+                                    {"name": "Selbstverwaltung"},
+                                    {"name": "Teamwork"}
+                                ]
+                        }                            
+                    }                                                  
+                ]
+    
+        },
+    "education" : 
+        {
+            "title" : "Bildung",
+            "studies" :
+                [
+                    {
+                        "title" : "Full Stack Webentwickler Masters-Programm",
+                        "period" : "02.2019 - 02.2020",
+                        "location": "Online, Englisch",
+                        "center" : "Edureka e-learning platform",
+                        "duration": "Dauer: 200 Stunden",
+                        "content" : 
+                            [
+                                {"subject" : "Webentwicklung Zertifizierung"},
+                                {"subject" : "jQuery development Zertifizierung"},
+                                {"subject" : "MongoDB Zertifizierungstraining"},
+                                {"subject" : "Angular Zertifizierungstraining"},
+                                {"subject" : "Node.js Zertifizierungstraining"},
+                                {"subject" : "Abschluss projekt: Entwicklung einer Studentenportal-Webanwendung, die ein webbasiertes System zur Verwaltung der Schüleraktivität für alle College- / Schüler bereitstellt. Implementiert als MEAN / Full Stack-Anwendung, gefolgt von einer MVC-Architektur und einem RESTful-Webdienst."}
+                            ]
+                    },
+                    {
+                        "title" : "Hochschulzertifikat für die Entwicklung informatischer Anwendungen",
+                        "period" : "09.2001 – 06.2003",
+                        "location": "Barcelona",
+                        "center" : "I.E.S Rambla Prim",
+                        "duration": "Dauer: 2000 Stunden",
+                        "content" : 
+                            [
+                                {"subject" : "Betriebssysteme"},
+                                {"subject" : "Lokale Netzwerke"},
+                                {"subject" : "Analyse und Design von Datenbanken"},
+                                {"subject" : "Strukturierte und modulare Programmierung (C)"},
+                                {"subject" : "Advanced Programming (JAVA)"},
+                                {"subject" : "Analyse und Design von Anwendungen"},
+                                {"subject" : "Environments der 4. Generation mit CASE-Tools"},
+                                {"subject" : "Design und Präsentationsdienste in grafischen Umgebungen (Visual Basic, Delphi)"}
+                            ]
+                    },
+                    {
+                        "title" : "Web und Multimedia-Design-Training",
+                        "period" : "09.2009 – 02.2010",
+                        "location": "Barcelona",
+                        "center" : "Innovatives und professionelles Ausbildungszentrum La Violeta",
+                        "duration": "Dauer: 384 Stunden",
+                        "content" : 
+                            [
+                                {"subject" : "3D Design (Lightwave)"},
+                                {"subject" : "Webdesign (Photoshop, Adobe Flash, Dreamweaver)"}
+                            ]
+                    },
+                    {
+                        "title" : "Hochschulbildung im IT-Systemmanagement (nicht zertifiziert)",
+                        "period" : "02.2010 – 06.2011",
+                        "location": "Online",
+                        "center" : "Institut Obert de Catalunya (IOC)",
+                        "duration": "Dauer: 1440 Stunden",
+                        "content" : 
+                            [
+                                {"subject" : "Einzel und Mehrbenutzer-Computersysteme"},
+                                {"subject" : "Management von lokalen Netzwerken"},
+                                {"subject" : "Implementierung von IT- und Managementanwendungen"},
+                                {"subject" : "Administration von Managementsystemdatenbanken"},
+                                {"subject" : "Entwicklung von Funktionen im Computersystem"},
+                                {"subject" : "Datenbankverwaltungssysteme"}
+                            ]
+                    }                                                          
+                ]
+        },
+    "languages" : 
+        { 
+            "title" : "Sprachen",
+            "list": 
+                [ 
+                    { "code": "ca" ,"name" : "Katalanisch", "skill" : "Muttersprache", "value": 100 },
+                    { "code": "es" ,"name" : "Spanisch", "skill" : "Muttersprache", "value": 100 },
+                    { "code": "en" ,"name" : "Englisch", "skill" : "Professionelle Arbeitsleistung", "value": 75  },
+                    { "code": "de" ,"name" : "Deutsch", "skill" : "B2-Zertifizierung", "value": 66 }
+                ]
+        }
+}

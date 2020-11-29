@@ -75,7 +75,7 @@
                         "website": "www.onmedic.com",
                         "tasks": 
                             [
-                                {"description" : "Web developement with in DotNetNuke (dnn)"},
+                                {"description" : "Web developement with DotNetNuke (dnn)"},
                                 {"description" : "SQL Server Databases management and programming"},
                                 {"description" : "Web development with Javascript, jQuery, HTML, CSS"},
                                 {"description" : "Performing modules for dnn with VB.NET"}
@@ -225,7 +225,7 @@
                                 {"subject" : "Structured and modular programming (C)"},
                                 {"subject" : "Advanced programming (JAVA)"},
                                 {"subject" : "Analysis and design of applications"},
-                                {"subject" : "4th generation environments and with CASE tools"},
+                                {"subject" : "4th generation environments with CASE tools"},
                                 {"subject" : "Design and presentation services in graphical environments(Visual Basic,Delphi)"}
                             ]
                     },
