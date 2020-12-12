@@ -19,11 +19,11 @@
             "grades": {"basic" : "grundlegend", "proficient" : "kompetent", "expert" :"Experte"},
             "skills": 
                 [
-                    { "name": "Javascript", "value": 95 },
-                    { "name": "HTML", "value": 95 },
+                    { "name": "Javascript", "value": 90 },
+                    { "name": "HTML", "value": 90 },
                     { "name": "CSS/SCSS", "value": 90 },
-                    { "name": "Bootstrap", "value": 95 },
-                    { "name": "jQuery", "value": 95 },
+                    { "name": "Bootstrap", "value": 90 },
+                    { "name": "jQuery", "value": 90 },
                     { "name": "Angular", "value": 33 },
                     { "name": "Node.js", "value": 50 },
                     { "name": "MongoDB", "value": 33 },
@@ -269,5 +269,6 @@
                     { "code": "en" ,"name" : "Englisch", "skill" : "Professionelle Arbeitsleistung", "value": 75  },
                     { "code": "de" ,"name" : "Deutsch", "skill" : "B2-Zertifizierung", "value": 66 }
                 ]
-        }
+        },
+        "download": "Lebenslauf in PDF Format herunterladen"
 }

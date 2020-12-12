@@ -19,11 +19,11 @@
             "grades": {"basic" : "básico", "proficient" : "competente", "expert" :"experto"},
             "skills": 
                 [
-                    { "name": "Javascript", "value": 95 },
-                    { "name": "HTML", "value": 95 },
+                    { "name": "Javascript", "value": 90 },
+                    { "name": "HTML", "value": 90 },
                     { "name": "CSS/SCSS", "value": 90 },
-                    { "name": "Bootstrap", "value": 95 },
-                    { "name": "jQuery", "value": 95 },
+                    { "name": "Bootstrap", "value": 90 },
+                    { "name": "jQuery", "value": 90 },
                     { "name": "Angular", "value": 33 },
                     { "name": "Node.js", "value": 50 },
                     { "name": "MongoDB", "value": 33 },
@@ -263,10 +263,11 @@
             "title" : "Idiomas",
             "list": 
                 [ 
-                    { "code": "ca" , "name" : "Catalan", "skill" : "Lengua materna", "value": 100 },
-                    { "code": "es" , "name" : "Español", "skill" : "Lengua Materna", "value": 100 },
-                    { "code": "en" , "name" : "Inglés", "skill" : "Competencia laboral profesional", "value": 75  },
-                    { "code": "de" , "name" : "Alemán", "skill" : "Certficado B2", "value": 66 }
+                    { "code": "ca" , "name" : "Català", "skill" : "Llengua materna", "value": 100 },
+                    { "code": "es" , "name" : "Castellà", "skill" : "Llengua materna", "value": 100 },
+                    { "code": "en" , "name" : "Anglés", "skill" : "Competencia laboral professional", "value": 75  },
+                    { "code": "de" , "name" : "Alemany", "skill" : "Certficat B2", "value": 66 }
                 ]
-        }
+        },
+        "download": "Descarrega el CV en format PDF"
 }

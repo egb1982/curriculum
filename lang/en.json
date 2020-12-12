@@ -19,11 +19,11 @@
             "grades": {"basic" : "basic", "proficient" : "proficient", "expert" :"expert"},
             "skills": 
                 [
-                    { "name": "Javascript", "value": 95 },
-                    { "name": "HTML", "value": 95 },
+                    { "name": "Javascript", "value": 90 },
+                    { "name": "HTML", "value": 90 },
                     { "name": "CSS/SCSS", "value": 90 },
-                    { "name": "Bootstrap", "value": 95 },
-                    { "name": "jQuery", "value": 95 },
+                    { "name": "Bootstrap", "value": 90 },
+                    { "name": "jQuery", "value": 90 },
                     { "name": "Angular", "value": 33 },
                     { "name": "Node.js", "value": 50 },
                     { "name": "MongoDB", "value": 33 },
@@ -269,5 +269,7 @@
                     { "code": "en" ,"name" : "English", "skill" : "Professional Working Proficiency", "value": 75  },
                     { "code": "de" ,"name" : "German", "skill" : "B2 Certification", "value": 66 }
                 ]
-        }
+        },
+    "download": "Download the CV in PDF Format"
+        
 }
