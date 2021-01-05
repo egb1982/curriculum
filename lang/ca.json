@@ -1,22 +1,22 @@
 {
     "name" : "Emilio Gómez Berlanga",
-    "profession" : "Desarrollador Web Full Stack",
+    "profession" : "Desenvolupador Web Full Stack",
     "contact": 
         {
-            "address":"71634 Ludwigsburg, Alemania",
+            "address":"71634 Ludwigsburg, Alemanya",
             "email": "egb1982@gmail.com",
             "phone": "+49 176 4729 6097"
         },
     "about_me" : 
         { 
             "title" : "Sobre mi", 
-            "text" :"Soy un desarollador de sofware enfocado en el desarrollo web desde más de 8 años. Hace 6 años decidí aceptar el reto de irme al extranjero, concretamente a la zona de Stuttgart dónde vivo y trabajo actualemnte. Estoy deseando encontrar nuevos retos que me acerquen a mis metas como desarollador web 'Full Stack'. Me defino como una persona respetuosa y tranquila en la superficie, pero apasionada con lo que hago, con ganas de aprender y con la mente abierta para aceptar nuevas experiencias y conocimientos." 
+            "Text": "Sóc un desenvolupador de software enfocat en el desenvolupament web des de fa més de 8 anys. Fa 6 anys vaig decidir acceptar el repte d'anar-me'n a l'estranger, concretament a la zona de Stuttgart on visc i treballo actualment. M'agradaría molt trobar nous reptes que em apropin als meus objectius com a desenvolupador web 'Full Stack'. em defineixo com una persona respectuosa i tranquil·la a primer cop d'ull, però sóc apassionat amb el que faig. Tinc ganes d'aprendre i espero amb els braços oberts noves experiències i coneixements. "
         },
     "tech_skills" : 
         { 
-            "title" : "Competencias técnicas",
-            "subtitle": "Competencias técnicas más significativas",
-            "grades": {"basic" : "básico", "proficient" : "competente", "expert" :"experto"},
+            "title" : "competències tècniques",
+            "subtitle": "competències tècniques mès significatives",
+            "grades": {"basic" : "bàsic", "proficient" : "competent", "expert" :"expert"},
             "skills": 
                 [
                     { "name": "Javascript", "value": 90 },
@@ -34,155 +34,155 @@
         },
     "work_experience": 
         {   
-            "title": "Experiencia laboral",
+            "title": "Experiència laboral",
             "jobs":
                 [
                     {
-                        "position" : "Desarrollador web y diseñador",
-                        "period" : "03/2014 - actualmente",
-                        "location": "Stuttgart, Alemania",
+                        "position" : "Desenvolupador web i dissenyador",
+                        "period" : "03/2014 - actualment",
+                        "location": "Stuttgart, Alemanya",
                         "company": "LIB-IT DMS GmbH",
                         "website": "www.lib-it.de",
                         "tasks": 
                             [
-                                {"description" : "Responsable de la interfaz web"},
-                                {"description" : "Dineño web"},
-                                {"description" : "Desarrollo de Backend con Node.js"},
-                                {"description" : "Desarrollo de Backend y Frontend con Intersystems Cache/Iris"},
-                                {"description" : "Desarrollo Frontend con HTML, CSS/SCSS y Javascript"},
-                                {"description" : "Diseño adaptativo con Bootstrap"},
-                                {"description" : "Desarrollo con C#.NET"}
+                                {"description" : "Responsable de la interfície web"},
+                                {"description" : "Disseny web"},
+                                {"description" : "Desenvolupament de Backend amb Node.js"},
+                                {"description" : "Desenvolupament de Backend i Frontend amb Intersystems Cache/Iris"},
+                                {"description" : "Desenvolupament Frontend amb HTML, CSS/SCSS i Javascript"},
+                                {"description" : "Disseny adaptatiu amb Bootstrap"},
+                                {"description" : "Desenvolupament amb C#.NET"}
                             ],
                         "soft_skills" : 
                         {
-                            "title" : "Competencias desarrolladas",
+                            "title" : "Competències desenvolupades",
                             "skills":
                                 [
-                                    {"name": "Creatividad"},
-                                    {"name": "Flexibilidad"},
+                                    {"name": "Creativitat"},
+                                    {"name": "Flexibilitat"},
                                     {"name": "Iniciativa"},
-                                    {"name": "Organización"},
-                                    {"name": "Autogestión"},
-                                    {"name": "Trabajo en equipo"}
+                                    {"name": "Organització"},
+                                    {"name": "Autogestió"},
+                                    {"name": "Treball en equip"}
                                 ]
                         }                         
                     },
                     {
-                        "position" : "Desarrollador web",
+                        "position" : "Desenvolupador web",
                         "period" : "06/2011 – 02/2014",
-                        "location": "Barcelona, España",
+                        "location": "Barcelona, Espanya",
                         "company": "ONMEDIC networks ",
                         "website": "www.onmedic.com",
                         "tasks": 
                             [
-                                {"description" : "Desarrollo web con DotNetNuke (dnn)"},
-                                {"description" : "Programación y gestión de bases de datos SQL Server"},
-                                {"description" : "Desarrollo web con Javascript, jQuery, HTML y CSS"},
-                                {"description" : "Realización de módulos para dnn con VB.NET"}
+                                {"description" : "Desenvolupament web amb DotNetNuke (dnn)"},
+                                {"description" : "Programació i gestió de bases de dades SQL Server"},
+                                {"description" : "Desenvolupament web amb Javascript, jQuery, HTML y CSS"},
+                                {"description" : "Realització de mòduls per dnn amb VB.NET"}
                             ],
                         "soft_skills" : 
                         {
-                            "title" : "Competencias desarrolladas",
+                            "title" : "Competències desenvolupades",
                             "skills":
                                 [
                                     {"name": "Iniciativa"},
-                                    {"name": "Autogestión"},
-                                    {"name": "Trabajo en equipo"}
+                                    {"name": "Autogestió"},
+                                    {"name": "Treball en equip"}
                                 ]
                         } 
                     },
                     {
-                        "position" : "Desarrollo web",
+                        "position" : "Desenvolupament web",
                         "period" : "11/2010 – 04/2011",
-                        "location": "Sant Feliu de Llobregat, España",
+                        "location": "Sant Feliu de Llobregat, Espanya",
                         "company": "Ayuntamiento de Sant Feliu de Llobregat",
                         "website": "https://www.santfeliu.cat",
                         "tasks": 
                             [
-                                {"description" : "Modificación de contenido web, incluyendo gestión de peticiones y ejecución de mejoras"},
-                                {"description" : "Programación de PHP scripts"}
+                                {"description" : "Modificació de contiguts web, incloent gestió de peticions i execució de millores"},
+                                {"description" : "Programació de scripts PHP"}
                             ],
                         "soft_skills" : 
                         {
-                            "title" : "Competencias desarrolladas",
+                            "title" : "Competències desenvolupades",
                             "skills":
                                 [
                                     {"name": "Iniciativa"},
-                                    {"name": "Organización"},
-                                    {"name": "Autogestión"}
+                                    {"name": "Organització"},
+                                    {"name": "Autogestió"}
                                 ]
                         } 
                     },
                     {
-                        "position" : "Desarrolador de software y Experto IT",
+                        "position" : "Desenvolupador de software i Expert IT",
                         "period" : "05/2007 – 04/2009",
-                        "location": "Barcelona, España",
+                        "location": "Barcelona, Espanya",
                         "company": "Euclides BINDAR",
                         "website": "http://www.grupoeuclides.com",
                         "tasks": 
                             [
-                                {"description" : "Programación en C/AL (Microsoft Dynamics NAV)"},
-                                {"description" : "Desarrollo con ASPX, C#.NET"},
+                                {"description" : "Programació en C/AL (Microsoft Dynamics NAV)"},
+                                {"description" : "Desenvolupament amb ASPX, C#.NET"},
                                 {"description" : "Administrador de sistema"},
-                                {"description" : "Soporte técnico"}
+                                {"description" : "Suport tècnic"}
                             ],
                         "soft_skills" : 
                         {
-                            "title" : "Competencias desarrolladas",
+                            "title" : "Competències desenvolupades",
                             "skills":
                                 [
                                     {"name": "Comunicación"},
-                                    {"name": "Organización"},
-                                    {"name": "Autogestión"}
+                                    {"name": "Organització"},
+                                    {"name": "Autogestió"}
                                 ]
                         } 
                     },
                     {
-                        "position" : "Técnico experto",
+                        "position" : "Tècnic expert",
                         "period" : "02/2005 – 04/2007 ",
-                        "location": "Barcelona, España",
+                        "location": "Barcelona, Espanya",
                         "company": "Grupo ALTEN",
                         "website": "http://www.alten.com",
                         "tasks": 
                             [
-                                {"description" : "Tareas de explotación y soporte al departamento de tesorería en CaixaBank"},
-                                {"description" : "Soporte técnico para aplicaciones estándar (office, windows)"},
-                                {"description" : "Soporte técnico para aplicaciones específicas de tesorería (xtra Reuters, Bloomberg)"},
-                                {"description" : "Soporte técnico para hardware e impresoras de red"},
-                                {"description" : "Copia y mantenimiento de cintas de seguridad"}
+                                {"description" : "Tasques d'explotació i suport al departament de tresoreria a CaixaBank"},
+                                {"description" : "Suport tècnic per aplicacions estàndar (office, windows)"},
+                                {"description" : "Suport tècnic per aplicacions específiques de tresoreria (xtra Reuters, Bloomberg)"},
+                                {"description" : "Suport tècnic per hardware i impressores de xarxa"},
+                                {"description" : "Copia i manteniment de cintes de seguretat"}
                             ],
                         "soft_skills" : 
                         {
-                            "title" : "Competencias desarrolladas",
+                            "title" : "Competències desenvolupades",
                             "skills":
                                 [
                                     {"name": "Comunicación"},
-                                    {"name": "Empatía"},
-                                    {"name": "Organización"},
-                                    {"name": "gestión del estrés"}
+                                    {"name": "Empatia"},
+                                    {"name": "Organització"},
+                                    {"name": "gestió de l'estrès"}
                                 ]
                         } 
                     },
                     {
-                        "position" : "Agente de soporte técnico",
+                        "position" : "Agent de suport tècnic",
                         "period" : "12/2003 – 02/2005",
-                        "location": "Barcelona, España",
-                        "company": "Everis (before DMR-Qualitas)",
+                        "location": "Barcelona, Espanya",
+                        "company": "Everis (abans DMR-Qualitas)",
                         "website": "https://www.everis.com",
                         "tasks": 
                             [
-                                {"description" : "Soporte técnico"},
-                                {"description" : "Servicio de asistencia remota"}
+                                {"description" : "Suport tècnic"},
+                                {"description" : "Servei d'assistència remota"}
                             ],
                         "soft_skills" : 
                         {
-                            "title" : "Competencias desarrolladas",
+                            "title" : "Competències desenvolupades",
                             "skills":
                                 [
-                                    {"name": "Comunicación"},
-                                    {"name": "Empatía"},
-                                    {"name": "Autogestión"},
-                                    {"name": "Trabajo en equipo"}
+                                    {"name": "Comunicació"},
+                                    {"name": "Empatia"},
+                                    {"name": "Autogestió"},
+                                    {"name": "Treball en equip"}
                                 ]
                         } 
                     }                                                  
@@ -191,76 +191,76 @@
         },
     "education" : 
         {
-            "title" : "Educación",
+            "title" : "Educació",
             "studies" :
                 [
                     {
-                        "title" : "Experto en desarollo web Full Stack",
+                        "title" : "Expert en desenvolupament web Full Stack",
                         "period" : "02/2019 - 02/2020",
-                        "location": "Online, Inglés",
+                        "location": "Online, Anglès",
                         "center" : "Edureka e-learning platform",
-                        "duration": "Duración: 200 horas",
+                        "duration": "Durada: 200 hores",
                         "content" : 
                             [
-                                {"subject" : "Certificación en desarrollo web"},
-                                {"subject" : "Certificación en desarrollo con jQuery"},
-                                {"subject" : "Formación para certificación en MongoDB"},
-                                {"subject" : "Formación para certificación en Angular"},
-                                {"subject" : "Formación para certificación en Node.js"},
-                                {"subject" : "Proyecto final: Desarrollo de una aplicación web de portal para estudiantes que proporciona un sistema de gestión de actividades de estudiantes basado en web para todos los estudiantes universitarios / escolares. Implementado como aplicación MEAN / Full Stack seguida de arquitectura MVC y un servicio web RESTful."}
+                                {"subject" : "Certificació en desenvolupament web"},
+                                {"subject" : "Certificació en desenvolupament amb jQuery"},
+                                {"subject" : "Formació per la certificació en MongoDB"},
+                                {"subject" : "Formació per la certificació en Angular"},
+                                {"subject" : "Formació per la certificació en Node.js"},
+                                {"subject" : "Projecte final: Desenvolupament d'una aplicació web de portal per a estudiants que proporciona un sistema de gestió d'activitats d'estudiants basat en web per a tots els estudiants universitaris / escolars. Implementat com a aplicació MEAN / Full Stack seguida d'arquitectura MVC i un servei web RESTful."}
                             ]
                     },
                     {
-                        "title" : "Grado superior en desarrollo de aplicaciones informáticas",
+                        "title" : "Grau superior en desenvolupament d'aplicacione informàtiques",
                         "period" : "09/2001 – 06/2003",
                         "location": "Barcelona",
                         "center" : "I.E.S Rambla Prim",
-                        "duration": "Duración: 2000 horas",
+                        "duration": "Durada: 2000 hores",
                         "content" : 
                             [
-                                {"subject" : "Systemas operativos"},
-                                {"subject" : "Redes de area local"},
-                                {"subject" : "Análisis y diseño de bases de datos"},
-                                {"subject" : "Programación strucurada y modular (C)"},
-                                {"subject" : "Programación avanzada (JAVA)"},
-                                {"subject" : "Análisis y diseño de aplicaciones"},
-                                {"subject" : "Entornos de cuarta generación con herramientas CASE"},
-                                {"subject" : "Diseño y presentación de servicios en entornos gráficos (Visual Basic, Delphi)"}
+                                {"subject" : "Sistemes operatius"},
+                                {"subject" : "Xarxes d'àrea local"},
+                                {"subject" : "Anàlisi i disseny de bases de dades"},
+                                {"subject" : "Programació estrucurada i modular (C)"},
+                                {"subject" : "Programación avançada (JAVA)"},
+                                {"subject" : "Anàlisi i disseny d'aplicacions"},
+                                {"subject" : "Entorns de quarta generació amb eines CASE"},
+                                {"subject" : "Disseny i presentació de serveis en entorns gràfics (Visual Basic, Delphi)"}
                             ]
                     },
                     {
-                        "title" : "Formación en diseño web y multimedia",
+                        "title" : "Formació en disseny web i multimèdia",
                         "period" : "09/2009 – 02/2010",
                         "location": "Barcelona",
-                        "center" : "Centro de innovación y formación ocupacional La Violeta",
-                        "duration": "Duración: 384 horas",
+                        "center" : "Centre d'innovació i formació ocupacional La Violeta",
+                        "duration": "Durada: 384 hores",
                         "content" : 
                             [
-                                {"subject" : "Diseño 3D (Lightwave)"},
-                                {"subject" : "Diseño Web (Photoshop, Adobe Flash, Dreamweaver)"}
+                                {"subject" : "Disseny 3D (Lightwave)"},
+                                {"subject" : "Disseny web (Photoshop, Adobe Flash, Dreamweaver)"}
                             ]
                     },
                     {
-                        "title" : "Grado superior en administración de sistemas informáticos (no certificado)",
+                        "title" : "Grau superior en Administració de sistemas informátics (no certificat)",
                         "period" : "02/2010 – 06/2011",
                         "location": "Online",
                         "center" : "Institut Obert de Catalunya (IOC)",
-                        "duration": "Duración: 1440 horas",
+                        "duration": "Durada: 1440 hores",
                         "content" : 
                             [
-                                {"subject" : "Sistemas informáticos mono y multi usuario"},
-                                {"subject" : "Gestión de redes de área local"},
-                                {"subject" : "Implantación de aplicaciones informáticas de gestión"},
-                                {"subject" : "Fundamentos de programación"},
-                                {"subject" : "Desarrollo de funciones en el sistema informático"},
-                                {"subject" : "Sistemas gestores de bases de datos"}
+                                {"subject" : "Sistemes informàtics mono i multi usuari"},
+                                {"subject" : "Gestió de xarxes d'área local"},
+                                {"subject" : "Implantació d'aplicacions informàtiques de gestió"},
+                                {"subject" : "Fundaments de programació"},
+                                {"subject" : "Desenvolupament de funcions en el sistema informàtic"},
+                                {"subject" : "Sistemas gestors de bases de dades"}
                             ]
                     }                                                          
                 ]
         },
     "languages" : 
         { 
-            "title" : "Idiomas",
+            "title" : "Idiomes",
             "list": 
                 [ 
                     { "code": "ca" , "name" : "Català", "skill" : "Llengua materna", "value": 100 },
