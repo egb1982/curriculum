@@ -20,15 +20,15 @@
             "skills": 
                 [
                     { "name": "Javascript", "value": 90 },
-                    { "name": "HTML", "value": 90 },
+                    { "name": "jQuery", "value": 95 },
+                    { "name": "HTML", "value": 95 },
                     { "name": "CSS/SCSS", "value": 90 },
-                    { "name": "Bootstrap", "value": 90 },
-                    { "name": "jQuery", "value": 90 },
+                    { "name": "Bootstrap", "value": 95 },
                     { "name": "Angular", "value": 33 },
                     { "name": "Node.js", "value": 50 },
                     { "name": "MongoDB", "value": 33 },
                     { "name": "REST API", "value": 33 },
-                    { "name": ".NET", "value": 33 }
+                    { "name": ".NET", "value": 40 }
                 ]
 
         },
