@@ -83,14 +83,14 @@
                         <a class="nav-link text-success" href="#iLanguages"><%=loc.languages.title %></a>
                     </li>
                   </ul>
-                  <div class="mx-3">
-                    <label for="iDarkStyle" id="iDarkIcon" class="text-success"><i class="bi bi-moon"></i></label>
-                    <label for="iDarkStyle" id="iLightIcon" class="text-success"><i class="bi bi-sun"></i></label>  
-                  </div>
-                  <a download="" class="btn btn-outline-success my-2 my-sm-0" type="submit" href="./download/<%= lang %>" title="<%= loc.download %>" >
-                    <i class="bi bi-download"></i>
-                    </a>
                 </div>
+                <div class="mx-3 ml-auto">
+                    <label for="iDarkStyle" id="iDarkIcon" class="text-success my-sm-0"><i class="bi bi-moon"></i></label>
+                    <label for="iDarkStyle" id="iLightIcon" class="text-success my-sm-0"><i class="bi bi-sun"></i></label>  
+                  </div>
+                  <a id="iDownloadBtn" download="" class="my-2 my-sm-0" type="submit" href="./download/<%= lang %>" title="<%= loc.download %>" >
+                    <i class="bi bi-file-earmark-arrow-down-fill"></i>
+                  </a>
            </nav>            
             
             <div id="iAboutMe" class="card border-primary mb-3">

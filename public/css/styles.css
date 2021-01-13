@@ -62,8 +62,9 @@ p {
     position: absolute;
 }
 
-#iLightIcon, #iDarkIcon {
-    font-size: 20pt;
+#iLightIcon, #iDarkIcon, #iDownloadBtn {
+    font-size: 18pt;
+    cursor: pointer;
 }
 
 .cDarkStyle ~ #iMainContainer #iLightIcon,
