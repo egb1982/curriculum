@@ -1,4 +1,8 @@
 
+#iNavigation, .card, .jumbotron {
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+}
+
 .jumbotron {
     color: white;
     background:rgb(0, 0, 0);
@@ -8,11 +12,19 @@
     background-size: cover;
 }
 
+.jumbotron .display-4 {
+    text-shadow: 0px 3px 5px #93c54b;
+}
+
 #iProfileImage {
     border-radius: 8em;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 .progress-bar {
@@ -42,3 +54,48 @@ p {
 #iMoveUpBtn:hover {
     opacity: 1;
 }
+
+/** DARK STYLE **/
+
+.cDarkStyle {
+    visibility: hidden;
+    position: absolute;
+}
+
+#iLightIcon, #iDarkIcon {
+    font-size: 20pt;
+}
+
+.cDarkStyle ~ #iMainContainer #iLightIcon,
+.cDarkStyle:checked ~ #iMainContainer #iDarkIcon {
+    display: none;
+}
+.cDarkStyle ~ #iMainContainer #iDarkIcon,
+.cDarkStyle:checked ~ #iMainContainer #iLightIcon {
+    display: inline-block;
+}
+
+.cDarkStyle:checked ~ #iMainContainer {
+    background-color:#272727;
+}
+
+.cDarkStyle:checked ~ #iMainContainer .card, 
+.cDarkStyle:checked ~ #iMainContainer #iContactInfo {
+    color:#fff;
+}
+
+.progress-bar {
+    animation: animateBars 1s linear 1;
+}
+/* .progress-bar.bg-darkblue {
+    animation: animateBars 1s linear 1;
+    animation-delay: 1s;
+}
+.progress-bar.bg-success {
+    animation: animateBars 1s linear 1;
+    animation-delay: 2s;
+} */
+@keyframes animateBars {
+    0% { width: 0;}
+}
+
