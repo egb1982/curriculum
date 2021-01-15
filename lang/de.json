@@ -19,16 +19,17 @@
             "grades": {"basic" : "grundlegend", "proficient" : "kompetent", "expert" :"Experte"},
             "skills": 
                 [
-                    { "name": "Javascript", "value": 90 },
-                    { "name": "jQuery", "value": 95 },
-                    { "name": "HTML", "value": 95 },
-                    { "name": "CSS/SCSS", "value": 90 },
-                    { "name": "Bootstrap", "value": 95 },
                     { "name": "Angular", "value": 33 },
-                    { "name": "Node.js", "value": 50 },
+                    { "name": "Bootstrap", "value": 95 },
+                    { "name": "CSS3", "value": 95 },
+                    { "name": "HTML5", "value": 95 },
+                    { "name": "Javascript", "value": 95 },
+                    { "name": "jQuery", "value": 95 },
                     { "name": "MongoDB", "value": 33 },
-                    { "name": "REST API", "value": 33 },
-                    { "name": ".NET", "value": 40 }
+                    { "name": "Node.js", "value": 60 },
+                    { "name": "REST API", "value": 55 },
+                    { "name": "SASS/SCSS", "value": 70 },
+                    { "name": "SQL", "value": 70 }
                 ]
 
         },
