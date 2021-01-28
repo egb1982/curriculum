@@ -32,33 +32,37 @@
     <body>
         <input id="iDarkStyle" type="checkbox" class="cDarkStyle">
         <div id="iMainContainer">
-            <div class="container-fluid container-xl">           
-                <div class="jumbotron jumbotron-fluid">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col">
-                                <h1 class="display-4"><%= loc.name %></h1>
-                                <h2 class="text-success"><%= loc.profession %></h2>    
-                            </div>
-                            <div class="col-auto mr-3">
-                                <img id='iProfileImage' src="/img/profilePicture.jpg" alt="Emilio Gómez Berlanga" class="img-thumbnail" width="200px" height="200px"> 
+            <div class="container-fluid container-xl">
+                <header>
+                    <div class="jumbotron jumbotron-fluid">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col">
+                                    <h1 class="display-4"><%= loc.name %></h1>
+                                    <h2 class="text-success"><%= loc.profession %></h2>    
+                                </div>
+                                <div class="col-auto mr-3">
+                                    <img id='iProfileImage' src="/img/profilePicture.jpg" alt="Emilio Gómez Berlanga" class="img-thumbnail" width="200px" height="200px"> 
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="row mb-4" id="iContactInfo">
-                    <div class="col-md-4 col-12 text-center">
-                        <i class="bi bi-house-fill"></i>
-                        <a class="align-middle" target="_blank" href="https://maps.google.com/?q=<%= loc.address %>"><%= loc.contact.address %></a>
-                    </div>                
-                    <div class="col-md-4 col-12 text-center">
-                        <i class="bi bi-envelope-fill"></i>
-                        <a class="align-middle" href="mailto:<%= loc.contact.email %>"><%= loc.contact.email %></a></div>
-                    <div class="col-md-4 col-12 text-center">
-                        <i class="bi bi-phone-fill"></i>
-                        <a class="align-middle" href="tel:<%= loc.contact.phone %>"><%= loc.contact.phone %></a>
-                    </div>
-                </div>            
+                    <aside>
+                        <div class="row mb-4" id="iContactInfo">
+                            <div class="col-md-4 col-12 text-center">
+                                <i class="bi bi-house-fill"></i>
+                                <a class="align-middle" target="_blank" href="https://maps.google.com/?q=<%= loc.address %>"><%= loc.contact.address %></a>
+                            </div>                
+                            <div class="col-md-4 col-12 text-center">
+                                <i class="bi bi-envelope-fill"></i>
+                                <a class="align-middle" href="mailto:<%= loc.contact.email %>"><%= loc.contact.email %></a></div>
+                            <div class="col-md-4 col-12 text-center">
+                                <i class="bi bi-phone-fill"></i>
+                                <a class="align-middle" href="tel:<%= loc.contact.phone %>"><%= loc.contact.phone %></a>
+                            </div>
+                        </div>    
+                    </aside>
+                </header>
                 <nav id='iNavigation' class="navbar navbar-expand-lg navbar-dark bg-primary mb-5 d-print-none <%= (pdf==1) ? 'd-none':'' %>">
                     <a class="navbar-brand dropdown-toggle text-uppercase" href="#" data-toggle="dropdown"><%= lang %></a>
                     <div class="dropdown-menu">
@@ -92,154 +96,165 @@
                     <a id="iDownloadBtn" download="" class="my-2 my-sm-0" type="submit" href="./download/<%= lang %>" title="<%= loc.download %>" >
                         <i class="bi bi-file-earmark-arrow-down-fill"></i>
                     </a>
-            </nav>            
-                
-                <div id="iAboutMe" class="card border-primary mb-3">
-                    <div class="card-header text-white bg-primary h5">
-                        <i class="bi bi-person-bounding-box"></i>
-                        <span class="align-middle"><%= loc.about_me.title %></span>
-                    </div>                    
-                    <div class="card-body">
-                    <h5 class="card-title"></h5>
-                    <p class="card-text"><%= loc.about_me.text %></p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12 mb-3">
-                        <div id="iTechSkills" class="card border-danger mb-3 h-100">
-                            <div class="card-header bg-danger text-white h5">
-                                <i class="bi bi-cpu-fill"></i>
-                                <span class="align-middle"><%= loc.tech_skills.title %></span></div>
-                            <div class="card-body">
-                                <h5 class="card-title"><%= loc.tech_skills.subtitle %></h5>
-                                <div class="row my-3">
-                                    <div class="col">
-                                        <span class="badge badge badge-info"><%= loc.tech_skills.grades.basic %></span>
-                                        <span class="badge badge-primary"><%= loc.tech_skills.grades.proficient %></span>
-                                        <span class="badge badge-success"><%= loc.tech_skills.grades.expert %></span>
-                                    </div>
-                                </div>
-                            <% loc.tech_skills.skills.forEach((skill) => { %>
-                            <div class="row">
-                                <div class="col-md-4 col-12 text-md-right pr-0 font-weight-bold"><%= skill.name %></div>
-                                <div class="col-md-5 col-12">
-                                    <div class="progress">
-                                        <% if (skill.value <= 33) { %>
-                                            <div class="progress-bar bg-info" role="progressbar" style="width: <%= skill.value  %>%" aria-valuenow="<%= skill.value %>" aria-valuemin="0" aria-valuemax="100"></div>
-                                        <% } else if (skill.value <= 66 ) { %>
-                                            <!-- <div class="progress-bar bg-info" role="progressbar" style="width: 33%" aria-valuenow="33" aria-valuemin="0" aria-valuemax="100"></div> -->
-                                            <div class="progress-bar bg-darkblue" role="progressbar" style="width: <%= skill.value %>%" aria-valuenow="<%= skill.value %>" aria-valuemin="0" aria-valuemax="100"></div>
-                                        <% } else if (skill.value <= 100 ) { %>
-                                            <!-- <div class="progress-bar bg-info" role="progressbar" style="width: 33%" aria-valuenow="33" aria-valuemin="0" aria-valuemax="100"></div>
-                                            <div class="progress-bar bg-darkblue" role="progressbar" style="width: 33%" aria-valuenow="66" aria-valuemin="0" aria-valuemax="100"></div> -->
-                                            <div class="progress-bar bg-success" role="progressbar" style="width: <%= skill.value %>%" aria-valuenow="<%= skill.value %>" aria-valuemin="0" aria-valuemax="100"></div>
-                                        <% } %>
-                                    </div>        
-                                </div>
-                            </div>
-                            <% }); %>
-                            </div>
-                        </div>    
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6 col-12 mb-3">
-                        <div id="iWorkExperience" class="card border-success">
-                            <div class="card-header bg-success text-white h5">
-                                <i class="bi bi-laptop"></i>
-                                <span class="align-middle"><%= loc.work_experience.title %></span>
-                            </div>
-                            <div class="card-body">
-                                <% loc.work_experience.jobs.forEach((job) => { %>                   
-                                    <div class="row mb-2">
-                                        <div class="col-md-6 col"><span class="badge badge-pill badge-success pt-1"><%= job.period %></span></div>
-                                        <div class="col-md-6 col text-right"><%= job.location %></div>                                  
-                                    </div>
-                                    <div class="row">
-                                        <h5 class="card-title col"><%= job.position %></h5>
-                                        <div class="col text-right"><a href="<%= job.website %>"><%= job.company %></a></div>                              
-                                    </div>
-                                    <ul>
-                                        <% job.tasks.forEach((task) => { %>    
-                                            <li><%= task.description %></li>
-                                        <% }); %>    
-                                    </ul>
-                                    <div class="h5"><%= job.soft_skills.title %></div>
-                                    <% job.soft_skills.skills.forEach((skill) => { %>    
-                                        <span class="badge badge-success"><%= skill.name %></span>
-                                    <% }); %>    
-                                    <hr class="border-success">
-                                <% }); %>    
-                            </div>
-                        </div>    
-                    </div>
-                    <div class="col-md-6 col-12 mb-3">
-                        <div id="iEducation" class="card border-info">
-                            <div class="card-header text-white bg-info h5">
-                                <i class="bi bi-book" ></i>
-                            <span class="align-middle"><%= loc.education.title %></span>
-                            </div>
-                            <div class="card-body">
-                                <% loc.education.studies.forEach((study) => { %>   
-                                    <div class="row mb-2">
-                                        <div class="col-md-6 col">
-                                            <span class="badge badge-pill badge-info pt-1"><%= study.period %></span>
+                </nav>            
+                <section>
+                    <div id="iAboutMe" class="card border-primary mb-3">
+                        <div class="card-header text-white bg-primary h5">
+                            <i class="bi bi-person-bounding-box"></i>
+                            <span class="align-middle"><%= loc.about_me.title %></span>
+                        </div>                    
+                        <div class="card-body">
+                        <h5 class="card-title"></h5>
+                        <p class="card-text"><%= loc.about_me.text %></p>
+                        </div>
+                    </div>    
+                </section>
+                <section>
+                    <div class="row">
+                        <div class="col-12 mb-3">
+                            <div id="iTechSkills" class="card border-danger mb-3 h-100">
+                                <div class="card-header bg-danger text-white h5">
+                                    <i class="bi bi-cpu-fill"></i>
+                                    <span class="align-middle"><%= loc.tech_skills.title %></span></div>
+                                <div class="card-body">
+                                    <h5 class="card-title"><%= loc.tech_skills.subtitle %></h5>
+                                    <div class="row my-3">
+                                        <div class="col">
+                                            <span class="badge badge badge-info"><%= loc.tech_skills.grades.basic %></span>
+                                            <span class="badge badge-primary"><%= loc.tech_skills.grades.proficient %></span>
+                                            <span class="badge badge-success"><%= loc.tech_skills.grades.expert %></span>
                                         </div>
-                                        <div class="col-md-6 col text-right"><%= study.location %></div>  
                                     </div>
-                                    <div class="row">
-                                        <h5 class="card-title col"><%= study.title %></h5>
-                                        <div class="col text-right text-info"><%= study.center %></div>                              
-                                    </div>
-                                    <ul>
-                                        <% study.content.forEach((subjects) => { %>    
-                                            <li> <%= subjects.subject %></li>
-                                        <% }); %>
-                                    </ul>
-                                    <div class="badge badge-info"><%= study.duration %></div>
-                                    <hr class="border-info">
-                                <% }); %>    
-                            </div>
-                        </div>
-                        <div id="iLanguages" class="card border-info my-3">
-                            <div class="card-header text-white bg-info h5">
-                                <i class="bi bi-flag"></i>
-                                <span class="align-middle"><%= loc.languages.title %></span>
-                            </div>                    
-                            <div class="card-body">
-                            <h5 class="card-title"></h5>                        
-                            <% loc.languages.list.forEach((lang) => { %> 
+                                <% loc.tech_skills.skills.forEach((skill) => { %>
                                 <div class="row">
-                                    <div class="col-md-3 col-12 pr-0"><%= lang.name %></div>
-                                    <div class="col-md-9 col-12">
+                                    <div class="col-md-4 col-12 text-md-right pr-0 font-weight-bold"><%= skill.name %></div>
+                                    <div class="col-md-5 col-12">
                                         <div class="progress">
-                                            <% let bgclass = "" %>
-                                            <% if ( lang.value <= 33 ) { bgclass = "bg-info" } %>
-                                            <% if ( lang.value >= 67 ) { bgclass = "bg-success" } %>
-                                            <div class="progress-bar <%= bgclass %>" role="progressbar" style="width: <%= lang.value  %>%" aria-valuenow="<%= lang.value %>" aria-valuemin="0" aria-valuemax="100"><%= lang.skill %></div>
-                                        </div>    
+                                            <% if (skill.value <= 33) { %>
+                                                <div class="progress-bar bg-info" role="progressbar" style="width: <%= skill.value  %>%" aria-valuenow="<%= skill.value %>" aria-valuemin="0" aria-valuemax="100"></div>
+                                            <% } else if (skill.value <= 66 ) { %>
+                                                <!-- <div class="progress-bar bg-info" role="progressbar" style="width: 33%" aria-valuenow="33" aria-valuemin="0" aria-valuemax="100"></div> -->
+                                                <div class="progress-bar bg-darkblue" role="progressbar" style="width: <%= skill.value %>%" aria-valuenow="<%= skill.value %>" aria-valuemin="0" aria-valuemax="100"></div>
+                                            <% } else if (skill.value <= 100 ) { %>
+                                                <!-- <div class="progress-bar bg-info" role="progressbar" style="width: 33%" aria-valuenow="33" aria-valuemin="0" aria-valuemax="100"></div>
+                                                <div class="progress-bar bg-darkblue" role="progressbar" style="width: 33%" aria-valuenow="66" aria-valuemin="0" aria-valuemax="100"></div> -->
+                                                <div class="progress-bar bg-success" role="progressbar" style="width: <%= skill.value %>%" aria-valuenow="<%= skill.value %>" aria-valuemin="0" aria-valuemax="100"></div>
+                                            <% } %>
+                                        </div>        
                                     </div>
                                 </div>
-                            <% }); %>
-                            </div>
-                        </div>
-                        <div class="row <%= (pdf==0) ? 'd-none':'' %>">
-                            <div class="col align-self-center">
-                                <span class="h4 text-primary"> 
-                                    <i class="bi bi-globe"></i>
-                                </span>
-                                <span class="h4"> cv.egomez.net?hl=<%= lang %> </span>
-                            </div>
-                            <div class="col-auto">
-                                <img src="/img/cv_web_qr_<%= lang %>.svg" alt="egomez-developer.tk" width="110" class="img-thumbnail" >
+                                <% }); %>
+                                </div>
                             </div>    
                         </div>
-                    </div>                
-                </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="row">
+                        <div class="col-md-6 col-12 mb-3">
+                            <div id="iWorkExperience" class="card border-success">
+                                <div class="card-header bg-success text-white h5">
+                                    <i class="bi bi-laptop"></i>
+                                    <span class="align-middle"><%= loc.work_experience.title %></span>
+                                </div>
+                                <div class="card-body">
+                                    <% loc.work_experience.jobs.forEach((job) => { %>
+                                        <article>
+                                            <div class="row mb-2">
+                                                <div class="col-md-6 col"><span class="badge badge-pill badge-success pt-1"><%= job.period %></span></div>
+                                                <div class="col-md-6 col text-right"><%= job.location %></div>                                  
+                                            </div>
+                                            <div class="row">
+                                                <h5 class="card-title col"><%= job.position %></h5>
+                                                <div class="col text-right"><a href="<%= job.website %>"><%= job.company %></a></div>                              
+                                            </div>
+                                            <ul>
+                                                <% job.tasks.forEach((task) => { %>    
+                                                    <li><%= task.description %></li>
+                                                <% }); %>    
+                                            </ul>
+                                            <div class="h5"><%= job.soft_skills.title %></div>
+                                            <% job.soft_skills.skills.forEach((skill) => { %>    
+                                                <span class="badge badge-success"><%= skill.name %></span>
+                                            <% }); %>    
+                                            <hr class="border-success">
+                                        </article>
+                                    <% }); %>    
+                                </div>
+                            </div>    
+                        </div>
+                        <div class="col-md-6 col-12 mb-3">
+                            <div id="iEducation" class="card border-info">
+                                <div class="card-header text-white bg-info h5">
+                                    <i class="bi bi-book" ></i>
+                                <span class="align-middle"><%= loc.education.title %></span>
+                                </div>
+                                <div class="card-body">
+                                    <% loc.education.studies.forEach((study) => { %>   
+                                        <article>
+                                            <div class="row mb-2">
+                                                <div class="col-md-6 col">
+                                                    <span class="badge badge-pill badge-info pt-1"><%= study.period %></span>
+                                                </div>
+                                                <div class="col-md-6 col text-right"><%= study.location %></div>  
+                                            </div>
+                                            <div class="row">
+                                                <h5 class="card-title col"><%= study.title %></h5>
+                                                <div class="col text-right text-info"><%= study.center %></div>                              
+                                            </div>
+                                            <ul>
+                                                <% study.content.forEach((subjects) => { %>    
+                                                    <li> <%= subjects.subject %></li>
+                                                <% }); %>
+                                            </ul>
+                                            <div class="badge badge-info"><%= study.duration %></div>
+                                            <hr class="border-info">
+                                        </article>
+                                    <% }); %>    
+                                </div>
+                            </div>
+                            <div id="iLanguages" class="card border-info my-3">
+                                <div class="card-header text-white bg-info h5">
+                                    <i class="bi bi-flag"></i>
+                                    <span class="align-middle"><%= loc.languages.title %></span>
+                                </div>                    
+                                <div class="card-body">
+                                <h5 class="card-title"></h5>                        
+                                <% loc.languages.list.forEach((lang) => { %> 
+                                    <div class="row">
+                                        <div class="col-md-3 col-12 pr-0"><%= lang.name %></div>
+                                        <div class="col-md-9 col-12">
+                                            <div class="progress">
+                                                <% let bgclass = "" %>
+                                                <% if ( lang.value <= 33 ) { bgclass = "bg-info" } %>
+                                                <% if ( lang.value >= 67 ) { bgclass = "bg-success" } %>
+                                                <div class="progress-bar <%= bgclass %>" role="progressbar" style="width: <%= lang.value  %>%" aria-valuenow="<%= lang.value %>" aria-valuemin="0" aria-valuemax="100"><%= lang.skill %></div>
+                                            </div>    
+                                        </div>
+                                    </div>
+                                <% }); %>
+                                </div>
+                            </div>
+                            <div class="row <%= (pdf==0) ? 'd-none':'' %>">
+                                <div class="col align-self-center">
+                                    <span class="h4 text-primary"> 
+                                        <i class="bi bi-globe"></i>
+                                    </span>
+                                    <span class="h4"> cv.egomez.net?hl=<%= lang %> </span>
+                                </div>
+                                <div class="col-auto">
+                                    <img src="/img/cv_web_qr_<%= lang %>.svg" alt="egomez-developer.tk" width="110" class="img-thumbnail" >
+                                </div>    
+                            </div>
+                        </div>                
+                    </div>
+                </section>
             </div>
-            <a href="#iNavigation" id="iMoveUpBtn" class="btn btn-default btn-success position-fixed fixed-bottom d-print-none <%= (pdf==1) ? 'd-none':'' %>">
-                <i class="bi bi-arrow-up"></i>
-            </a>
+            <footer>
+                <a href="#iNavigation" id="iMoveUpBtn" class="btn btn-default btn-success position-fixed fixed-bottom d-print-none <%= (pdf==1) ? 'd-none':'' %>">
+                    <i class="bi bi-arrow-up"></i>
+                </a>
+            </footer>
         </div>
     </body>
 </html>
