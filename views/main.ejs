@@ -32,10 +32,10 @@
     <body>
         <input id="iDarkStyle" type="checkbox" class="cDarkStyle">
         <main id="iMainContainer">
-            <section class="container-fluid container-xl">
+            <div class="container-fluid container-xl">
                 <header class="jumbotron jumbotron-fluid">
                     <section class="container">
-                        <article class="row">
+                        <div class="row">
                             <div class="col">
                                 <hgroup>
                                     <h1 class="display-4"><%= loc.name %></h1>
@@ -45,7 +45,7 @@
                             <figure class="col-auto mr-3">
                                 <img id='iProfileImage' src="/img/profilePicture.jpg" alt="Emilio Gómez Berlanga" class="img-thumbnail" width="200px" height="200px"> 
                             </figure>
-                        </article>
+                        </div>
                     </section>
                 </header>
                 <aside class="row mb-4" id="iContactInfo">
@@ -138,13 +138,13 @@
                     </div>
                 </details>
                 <section class="row">
-                    <section class="col-md-6 col-12 mb-3">
+                    <div class="col-md-6 col-12 mb-3">
                         <details open id="iWorkExperience" class="card border-success">
                             <summary class="card-header bg-success text-white h5">
                                 <i class="bi bi-laptop"></i>
                                 <span class="align-middle"><%= loc.work_experience.title %></span>
                             </summary>
-                            <article class="card-body">
+                            <div class="card-body">
                                 <% loc.work_experience.jobs.forEach((job) => { %>
                                     <article>
                                         <div class="row mb-2">
@@ -167,16 +167,16 @@
                                         <hr class="border-success">
                                     </article>
                                 <% }); %>    
-                            </article>
+                                </div>
                         </details>    
-                    </section>
-                    <section class="col-md-6 col-12 mb-3">
+                    </div>
+                    <div class="col-md-6 col-12 mb-3">
                         <details open id="iEducation" class="card border-info">
                             <summary class="card-header text-white bg-info h5">
                                 <i class="bi bi-book" ></i>
                                 <span class="align-middle"><%= loc.education.title %></span>
                             </summary>
-                            <section class="card-body">
+                            <div class="card-body">
                                 <% loc.education.studies.forEach((study) => { %>   
                                     <article>
                                         <div class="row mb-2">
@@ -198,7 +198,7 @@
                                         <hr class="border-info">
                                     </article>
                                 <% }); %>    
-                            </section>
+                            </div>
                         </details>
                         <details open id="iLanguages" class="card border-info my-3">
                             <summary class="card-header text-white bg-info h5">
@@ -233,9 +233,9 @@
                                 <img src="/img/cv_web_qr_<%= lang %>.svg" alt="egomez-developer.tk" width="110" class="img-thumbnail" >
                             </figure>    
                         </section>
-                    </section>
+                    </div>
                 </section>
-            </section>
+            </div>
             <footer>
                 <a href="#iNavigation" id="iMoveUpBtn" class="btn btn-default btn-success position-fixed fixed-bottom d-print-none <%= (pdf==1) ? 'd-none':'' %>">
                     <i class="bi bi-arrow-up"></i>
