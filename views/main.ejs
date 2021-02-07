@@ -228,16 +228,29 @@
                                     <i class="bi bi-globe"></i>
                                 </span>
                                 <span class="h4"> cv.egomez.net?hl=<%= lang %> </span>
+                                <br>
+                                <span class="h4 text-primary"> 
+                                    <i class="bi bi-github"></i>
+                                </span>
+                                <span class="h4"> github.com/egb1982 </span>
                             </article>
                             <figure class="col-auto">
                                 <img src="/img/cv_web_qr_<%= lang %>.svg" alt="egomez-developer.tk" width="110" class="img-thumbnail" >
                             </figure>    
                         </section>
+                        <section class="row <%= (pdf==1) ? 'd-none':'' %>">
+                            <article class="col align-self-center">
+                                <span class="h4 text-primary"> 
+                                    <i class="bi bi-github"></i>
+                                </span>
+                                <span class="h4"><a target="_blank" href="https://github.com/egb1982">github.com/egb1982</a></span>
+                            </article>
+                        </section>
                     </div>
                 </section>
             </div>
             <footer>
-                <a href="#iNavigation" id="iMoveUpBtn" class="btn btn-default btn-success position-fixed fixed-bottom d-print-none <%= (pdf==1) ? 'd-none':'' %>">
+                <a href="#iNavigation" id="iMoveUpBtn" class="btn btn-default btn-success position-fixed fixed-bottom d-print-none d-none fadeOut <%= (pdf==1) ? 'd-none':'' %>">
                     <i class="bi bi-arrow-up"></i>
                 </a>
             </footer>

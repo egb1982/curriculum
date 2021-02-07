@@ -2,21 +2,35 @@
  // we show a button to scroll back up to the nav bar
 let lastScroll = 0;
 
- $(document).on('scroll',() => {
+document.addEventListener('scroll', (ev) => {
+    
+    const button = document.getElementById('iMoveUpBtn');
+    const scrollTop = window.scrollY;
 
-    let st = $(this).scrollTop();
-    //console.log(st,lastScroll,$('#iDownloads').offset().top);
-    if (st < lastScroll){
+    if (scrollTop < lastScroll) {
          // upscroll
-        if ($('#iNavigation').offset().top < st) {
-            $('#iMoveUpBtn').fadeIn(1000);
-        } else {
-            $('#iMoveUpBtn').fadeOut(1000);
+        const navigation =  document.getElementById('iNavigation');
+        if (button.classList.contains("d-none")){
+            button.classList.remove('d-none');
         }
-     } else {
+        if (navigation.offsetTop < scrollTop) {
+            if (!button.classList.contains("fadeIn")) {
+                button.classList.remove('fadeOut');
+                button.classList.add('fadeIn');
+            }
+        } else {
+            if (!button.classList.contains("fadeOut")) {
+                button.classList.remove('fadeIn');
+                button.classList.add('fadeOut');
+            }
+        }
+    } else {
          //downscroll
-         $('#iMoveUpBtn').fadeOut(1000);
+         if (!button.classList.contains("fadeOut")) {
+            button.classList.remove('fadeIn');
+            button.classList.add('fadeOut');
+         }
      }
 
-    lastScroll = st <= 0 ? 0 : st; // For Mobile or negative scrolling
+    lastScroll = scrollTop <= 0 ? 0 : scrollTop; // For Mobile or negative scrolling
 });

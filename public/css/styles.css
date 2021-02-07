@@ -27,6 +27,13 @@
     background-color: rgba(255, 255, 255, 0.1);
 }
 
+#iContactInfo, .card-body {
+    font-size: medium;
+}
+#iNavigationLinks .nav-link {
+    font-size: 14px;
+}
+
 .progress-bar {
     color: white;
 }
@@ -36,7 +43,6 @@ p {
 }
 
 #iMoveUpBtn {
-    
     width: 50px;
     left:calc(50% - 23px);
     bottom: 10px;
@@ -46,15 +52,16 @@ p {
 }
 
 #iMoveUpBtn {
-    display: none;
     border-radius: 25px;
     font-size: 1.5em;
-    opacity: 0.75;
 }
-#iMoveUpBtn:hover {
+#iMoveUpBtn.fadeIn:hover {
     opacity: 1;
 }
-
+#iMoveUpBtn.fadeOut {
+    pointer-events: none;
+    cursor: none;
+}
 /** DARK STYLE **/
 
 .cDarkStyle {
@@ -88,14 +95,27 @@ p {
 .progress-bar {
     animation: animateBars 1s linear 1;
 }
-/* .progress-bar.bg-darkblue {
-    animation: animateBars 1s linear 1;
-    animation-delay: 1s;
+
+.fadeIn {
+    opacity: 0.75;
+    animation: fadeInEffect 1s linear 1;
 }
-.progress-bar.bg-success {
-    animation: animateBars 1s linear 1;
-    animation-delay: 2s;
-} */
+
+.fadeOut {
+    opacity: 0;
+    animation: fadeOutEffect 1s linear 1;
+}
+
 @keyframes animateBars {
     0% { width: 0;}
+}
+
+@keyframes fadeInEffect {
+    0% { opacity: 0 ;}
+    100% { opacity: 0.75 ;}
+}
+
+@keyframes fadeOutEffect {
+    0% { opacity: 0.75 ;}
+    100% { opacity: 0 ;}
 }
