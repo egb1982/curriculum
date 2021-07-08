@@ -19,19 +19,19 @@
             "grades": {"basic" : "basic", "proficient" : "proficient", "expert" :"expert"},
             "skills": 
                 [
+                    { "name": "React / React-Native", "value": 40 },
                     { "name": "Angular", "value": 33 },
-                    { "name": "Bootstrap", "value": 95 },
-                    { "name": "CSS3", "value": 95 },
-                    { "name": "HTML", "value": 95 },
-                    { "name": "Javascript", "value": 95 },
-                    { "name": "jQuery", "value": 95 },
+                    { "name": "Bootstrap", "value": 90 },
+                    { "name": "CSS3", "value": 90 },
+                    { "name": "HTML", "value": 90 },
+                    { "name": "Javascript", "value": 90 },
+                    { "name": "jQuery", "value": 90 },
                     { "name": "MongoDB", "value": 33 },
                     { "name": "Node.js", "value": 60 },
                     { "name": "REST API", "value": 55 },
                     { "name": "SASS/SCSS", "value": 75 },
                     { "name": "SQL", "value": 70 }
                 ]
-
         },
     "work_experience": 
         {   
@@ -39,11 +39,32 @@
             "jobs":
                 [
                     {
-                        "position" : "Web developer and designer",
-                        "period" : "03/2014 - current",
+                        "position" : "Full Stack developer",
+                        "period" : "05/2021 - current",
                         "location": "Stuttgart, Germany",
+                        "company": "Zoi Techkon GmbH",
+                        "website": "https://zoi.de",
+                        "tasks": 
+                            [
+                                {"description" : "React-native app development"},
+                                {"description" : "Agile/Scrum methodology"}
+                            ],
+                        "soft_skills" : 
+                        {
+                            "title" : "Developed competences",
+                            "skills":
+                                [
+                                    {"name": "Self management"},
+                                    {"name": "Teamwork"}
+                                ]
+                        }    
+                    },                    
+                    {
+                        "position" : "Web developer and designer",
+                        "period" : "03/2014 - 04/2021",
+                        "location": "Pleidelsheim, Germany",
                         "company": "LIB-IT DMS GmbH",
-                        "website": "www.lib-it.de",
+                        "website": "https://www.lib-it.de",
                         "tasks": 
                             [
                                 {"description" : "Head of web UI development"},
@@ -73,7 +94,7 @@
                         "period" : "06/2011 – 02/2014",
                         "location": "Barcelona, Spain",
                         "company": "ONMEDIC networks ",
-                        "website": "www.onmedic.com",
+                        "website": "https://www.onmedic.com",
                         "tasks": 
                             [
                                 {"description" : "Web developement with DotNetNuke (dnn)"},

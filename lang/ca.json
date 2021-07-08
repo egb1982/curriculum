@@ -19,12 +19,13 @@
             "grades": {"basic" : "bàsic", "proficient" : "competent", "expert" :"expert"},
             "skills": 
                 [
+                    { "name": "React / React-Native", "value": 40 },
                     { "name": "Angular", "value": 33 },
-                    { "name": "Bootstrap", "value": 95 },
-                    { "name": "CSS3", "value": 95 },
-                    { "name": "HTML", "value": 95 },
-                    { "name": "Javascript", "value": 95 },
-                    { "name": "jQuery", "value": 95 },
+                    { "name": "Bootstrap", "value": 90 },
+                    { "name": "CSS3", "value": 90 },
+                    { "name": "HTML", "value": 90 },
+                    { "name": "Javascript", "value": 90 },
+                    { "name": "jQuery", "value": 90 },
                     { "name": "MongoDB", "value": 33 },
                     { "name": "Node.js", "value": 60 },
                     { "name": "REST API", "value": 55 },
@@ -37,10 +38,31 @@
         {   
             "title": "Experiència laboral",
             "jobs":
-                [
+                [ 
+                    {
+                        "position" : "Desarollador Full Stack",
+                        "period" : "05/2021 - actualment",
+                        "location": "Stuttgart, Alemanya",
+                        "company": "Zoi Techkon GmbH",
+                        "website": "https://zoi.de",
+                        "tasks": 
+                            [
+                                {"description" : "Desenvolupament d'apps amd React-native"},
+                                {"description" : "Metodología Agile/Scrum"}
+                            ],
+                        "soft_skills" : 
+                        {
+                            "title" : "Competències desenvolupades",
+                            "skills":
+                                [
+                                    {"name": "Autogestió"},
+                                    {"name": "Traball en equip"}
+                                ]
+                        }    
+                    },           
                     {
                         "position" : "Desenvolupador web i dissenyador",
-                        "period" : "03/2014 - actualment",
+                        "period" : "03/2014 - 04/2021",
                         "location": "Stuttgart, Alemanya",
                         "company": "LIB-IT DMS GmbH",
                         "website": "www.lib-it.de",

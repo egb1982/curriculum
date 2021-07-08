@@ -19,12 +19,13 @@
             "grades": {"basic" : "básico", "proficient" : "competente", "expert" :"experto"},
             "skills": 
                 [
+                    { "name": "React / React-Native", "value": 40 },
                     { "name": "Angular", "value": 33 },
-                    { "name": "Bootstrap", "value": 95 },
-                    { "name": "CSS3", "value": 95 },
-                    { "name": "HTML", "value": 95 },
-                    { "name": "Javascript", "value": 95 },
-                    { "name": "jQuery", "value": 95 },
+                    { "name": "Bootstrap", "value": 90 },
+                    { "name": "CSS3", "value": 90 },
+                    { "name": "HTML", "value": 90 },
+                    { "name": "Javascript", "value": 90 },
+                    { "name": "jQuery", "value": 90 },
                     { "name": "MongoDB", "value": 33 },
                     { "name": "Node.js", "value": 60 },
                     { "name": "REST API", "value": 55 },
@@ -39,9 +40,30 @@
             "jobs":
                 [
                     {
-                        "position" : "Desarrollador web y diseñador",
-                        "period" : "03/2014 - actualmente",
+                        "position" : "Desarollador Full Stack",
+                        "period" : "05/2021 - Actualmente",
                         "location": "Stuttgart, Alemania",
+                        "company": "Zoi Techkon GmbH",
+                        "website": "https://zoi.de",
+                        "tasks": 
+                            [
+                                {"description" : "Desarrollo de apps con React-native"},
+                                {"description" : "Metodología Agile/Scrum"}
+                            ],
+                        "soft_skills" : 
+                        {
+                            "title" : "Competencias desarrolladas",
+                            "skills":
+                                [
+                                    {"name": "Autogestión"},
+                                    {"name": "Trabajo en equipo"}
+                                ]
+                        }    
+                    },           
+                    {
+                        "position" : "Desarrollador web y diseñador",
+                        "period" : "03/2014 - 04&2021",
+                        "location": "Pleidelsheim, Alemania",
                         "company": "LIB-IT DMS GmbH",
                         "website": "www.lib-it.de",
                         "tasks": 
