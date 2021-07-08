@@ -65,7 +65,7 @@
                         "period" : "03/2014 - 04/2021",
                         "location": "Stuttgart, Alemanya",
                         "company": "LIB-IT DMS GmbH",
-                        "website": "www.lib-it.de",
+                        "website": "https://www.lib-it.de",
                         "tasks": 
                             [
                                 {"description" : "Responsable de la interfície web"},
@@ -95,7 +95,7 @@
                         "period" : "06/2011 – 02/2014",
                         "location": "Barcelona, Espanya",
                         "company": "ONMEDIC networks ",
-                        "website": "www.onmedic.com",
+                        "website": "https://www.onmedic.com",
                         "tasks": 
                             [
                                 {"description" : "Desenvolupament web amb DotNetNuke (dnn)"},

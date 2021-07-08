@@ -65,7 +65,7 @@
                         "period" : "03/2014 - 04&2021",
                         "location": "Pleidelsheim, Alemania",
                         "company": "LIB-IT DMS GmbH",
-                        "website": "www.lib-it.de",
+                        "website": "https://www.lib-it.de",
                         "tasks": 
                             [
                                 {"description" : "Responsable de la interfaz web"},
